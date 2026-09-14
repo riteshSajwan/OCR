@@ -1,0 +1,450 @@
+{
+  "file": "SUPPLIER REWORK REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "S|",
+          "col_3": "JPPLIER RI",
+          "col_4": ":WORK REF",
+          "col_5": "ORT",
+          "col_6": "MONTH-“A@ jap -D4,",
+          "col_7": null,
+          "_confidence": 0.614
+        },
+        {
+          "_row": 2,
+          "col_0": "DATE",
+          "col_1": "PART NAME",
+          "col_2": "SUPPLIER NAME",
+          "col_3": "LOT QTY",
+          "col_4": "REWORK QTY",
+          "col_5": "OK QTY",
+          "col_6": "PROBLEM DESCRIPTION ,",
+          "col_7": "REMARKS",
+          "_confidence": 0.917
+        },
+        {
+          "_row": 3,
+          "col_0": "AUF",
+          "col_1": "Py'be [OD0%",
+          "col_2": "As Gan.",
+          "col_3": "An",
+          "col_4": "9400",
+          "col_5": "Dex)",
+          "col_6": "Aiudire Ob",
+          "col_7": null,
+          "_confidence": 0.367
+        },
+        {
+          "_row": 4,
+          "col_0": null,
+          "col_1": "ep UU.",
+          "col_2": "' J 7",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "tas) en ee 2",
+          "col_7": null,
+          "_confidence": 0.745
+        },
+        {
+          "_row": 6,
+          "col_0": "Calo",
+          "col_1": "FUR -(9.F0%",
+          "col_2": "Dorenel",
+          "col_3": "WA Ao",
+          "col_4": "4.9.0",
+          "col_5": "(1 AIn",
+          "col_6": "Rrudy",
+          "col_7": null,
+          "_confidence": 0.235
+        },
+        {
+          "_row": 7,
+          "col_0": null,
+          "col_1": "© KOC",
+          "col_2": ".",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "a,",
+          "col_7": null,
+          "_confidence": 0.622
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "/",
+          "col_7": null,
+          "_confidence": 0.964
+        },
+        {
+          "_row": 9,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "/",
+          "col_7": null,
+          "_confidence": 0.965
+        },
+        {
+          "_row": 10,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "/",
+          "col_7": null,
+          "_confidence": 0.959
+        },
+        {
+          "_row": 11,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "/",
+          "col_7": null,
+          "_confidence": 0.956
+        },
+        {
+          "_row": 19,
+          "col_0": "SI",
+          "col_1": "ON:-INCOMING QA",
+          "col_2": null,
+          "col_3": "SIGN:-PUR",
+          "col_4": "CHASE",
+          "col_5": null,
+          "col_6": "SIGN:-HOD fay AK ah",
+          "col_7": "SIGN:-HOD PLANT",
+          "_confidence": 0.84
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "S|",
+          "raw_text": "S|",
+          "confidence": 0.58,
+          "bbox": [
+            652,
+            270,
+            852,
+            323
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_4",
+          "value": ":WORK REF",
+          "raw_text": ":WORK REF",
+          "confidence": 0.58,
+          "bbox": [
+            1004,
+            270,
+            1173,
+            323
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": "MONTH-“A@ jap -D4,",
+          "raw_text": "MONTH-“A@ jap -D4,",
+          "confidence": 0.057,
+          "bbox": [
+            1323,
+            270,
+            1944,
+            323
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "AUF",
+          "raw_text": "AUF",
+          "confidence": 0.43,
+          "bbox": [
+            220,
+            392,
+            360,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_1",
+          "value": "Py'be [OD0%",
+          "raw_text": "Py'be [OD0%",
+          "confidence": 0.115,
+          "bbox": [
+            360,
+            392,
+            652,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_2",
+          "value": "As Gan.",
+          "raw_text": "As Gan.",
+          "confidence": 0.435,
+          "bbox": [
+            652,
+            392,
+            852,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_3",
+          "value": "An",
+          "raw_text": "An",
+          "confidence": 0.1,
+          "bbox": [
+            852,
+            392,
+            1004,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_4",
+          "value": "9400",
+          "raw_text": "9400",
+          "confidence": 0.37,
+          "bbox": [
+            1004,
+            392,
+            1173,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_5",
+          "value": "Dex)",
+          "raw_text": "Dex)",
+          "confidence": 0.33,
+          "bbox": [
+            1173,
+            392,
+            1323,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_6",
+          "value": "Aiudire Ob",
+          "raw_text": "Aiudire Ob",
+          "confidence": 0.19,
+          "bbox": [
+            1323,
+            392,
+            1944,
+            460
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_1",
+          "value": "ep UU.",
+          "raw_text": "ep UU.",
+          "confidence": 0.485,
+          "bbox": [
+            360,
+            460,
+            652,
+            530
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_2",
+          "value": "' J 7",
+          "raw_text": "' J 7",
+          "confidence": 0.363,
+          "bbox": [
+            652,
+            460,
+            852,
+            530
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_6",
+          "value": "tas) en ee 2",
+          "raw_text": "tas) en ee 2",
+          "confidence": 0.258,
+          "bbox": [
+            1323,
+            460,
+            1944,
+            530
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_0",
+          "value": "Calo",
+          "raw_text": "Calo",
+          "confidence": 0.05,
+          "bbox": [
+            220,
+            598,
+            360,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_1",
+          "value": "FUR -(9.F0%",
+          "raw_text": "FUR -(9.F0%",
+          "confidence": 0.21,
+          "bbox": [
+            360,
+            598,
+            652,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_2",
+          "value": "Dorenel",
+          "raw_text": "Dorenel",
+          "confidence": 0.0,
+          "bbox": [
+            652,
+            598,
+            852,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_3",
+          "value": "WA Ao",
+          "raw_text": "WA Ao",
+          "confidence": 0.47,
+          "bbox": [
+            852,
+            598,
+            1004,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_4",
+          "value": "4.9.0",
+          "raw_text": "4.9.0",
+          "confidence": 0.17,
+          "bbox": [
+            1004,
+            598,
+            1173,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_5",
+          "value": "(1 AIn",
+          "raw_text": "(1 AIn",
+          "confidence": 0.01,
+          "bbox": [
+            1173,
+            598,
+            1323,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "Rrudy",
+          "raw_text": "Rrudy",
+          "confidence": 0.0,
+          "bbox": [
+            1323,
+            598,
+            1944,
+            666
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_1",
+          "value": "© KOC",
+          "raw_text": "© KOC",
+          "confidence": 0.185,
+          "bbox": [
+            360,
+            666,
+            652,
+            734
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_6",
+          "value": "a,",
+          "raw_text": "a,",
+          "confidence": 0.22,
+          "bbox": [
+            1323,
+            666,
+            1944,
+            734
+          ]
+        }
+      ],
+      "_meta": {
+        "orientation_applied": 0,
+        "orientation_method": "osd",
+        "skew_deg": 0.0,
+        "grid_rows": 21,
+        "grid_cols": 8,
+        "cells_total": 168,
+        "cells_empty": 114,
+        "cells_dash": 0,
+        "cells_ocr": 46,
+        "cells_low_confidence": 22,
+        "mean_ocr_confidence": 0.517,
+        "matched_header_text": "gen MEENAKSHI POLYMERS PRIVATE LIMITED(HARIDWAR) Sy” SUPPLIER REWORK REPORT MONTH-“Q 40-94 DATE PART NAME SUPPLIER NAME LOT QTY REWORK QTY OK QTY PROBLEM DESCRIPTION , REMARKS AND Pee (020% Arline Ate",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 9.2
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+form_id: scrap_note
+description: Scrap note - per-item rejection quantities and reasons.
+match:
+  - "Scrap Note"
+  - "MPPL/F/STR/07"
+
+# Rows 0-2 are the title/doc-number band; row 3 carries the column headers.
+header_row: 3
+first_data_row: 4
+# The last row is the signature band, not data.
+trailing_rows_to_drop: 1
+
+columns:
+  - key: s_no
+    type: integer
+    printed: true
+  - key: item_code
+    type: text
+  - key: item_name
+    type: text
+  - key: unit
+    type: text
+  - key: rejection_qty
+    type: integer
+  - key: vendor_name
+    type: text
+  - key: reason_remarks
+    type: text
+
+dash_means: null
+
+# Handwritten ditto marks mean "same as the row above". Without this rule the
+# value is simply lost, since OCR sees a pair of tick strokes.
+ditto_columns: [unit, vendor_name, reason_remarks]
+ditto_markers: ["''", '"', "11", "l1", "1l", "//", ",,", "))", ")1", "1)"]
+
+checks: []

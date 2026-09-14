@@ -1,0 +1,58 @@
+form_id: mis_plating
+description: Daily MIS report - plating shop defect counts by product line.
+match:
+  - "DAILY MIS REPORT"
+  - "MPPL/F/QAD/35"
+
+# Rows 0-2 are the title/doc-number band; row 3 carries the column headers.
+header_row: 3
+first_data_row: 4
+
+# 17 columns, confirmed against the detected lattice.
+columns:
+  - key: sr_no
+    type: integer
+    printed: true
+  - key: defect
+    type: text
+    printed: true
+  - key: reason
+    type: text
+    printed: true
+  - key: cr_aael
+    type: integer
+  - key: cr_aad
+    type: integer
+  - key: engine_guard
+    type: integer
+  - key: pedal_brake
+    type: integer
+  - key: pgc
+    type: integer
+  - key: handle
+    type: integer
+  - key: total
+    type: integer
+  - key: renickel
+    type: integer
+  - key: rechrome
+    type: integer
+  - key: bufff
+    type: integer
+  - key: ok
+    type: integer
+  - key: b_grade
+    type: integer
+  - key: scrap
+    type: integer
+  - key: total_final
+    type: integer
+
+# A dash in a value cell means zero, not missing.
+dash_means: 0
+
+# Columns that must sum to `total`. Used to score confidence and, where exactly
+# one value is uncertain, to solve for it.
+checks:
+  - target: total
+    sum_of: [cr_aael, cr_aad, engine_guard, pedal_brake, pgc, handle]

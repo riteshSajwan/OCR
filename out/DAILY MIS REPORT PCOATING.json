@@ -1,0 +1,309 @@
+{
+  "file": "DAILY MIS REPORT PCOATING.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": null,
+          "col_1": null,
+          "col_2": ":",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": ":",
+          "col_7": ":",
+          "col_8": null,
+          "col_9": ":",
+          "col_10": ":",
+          "col_11": ":",
+          "col_12": "E",
+          "col_13": "i",
+          "col_14": null,
+          "col_15": ":",
+          "col_16": "-",
+          "col_17": ";",
+          "col_18": null,
+          "col_19": null,
+          "col_20": null,
+          "col_21": null,
+          "col_22": null,
+          "col_23": null,
+          "_confidence": 0.19
+        },
+        {
+          "_row": 2,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "3",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": null,
+          "col_9": "°",
+          "col_10": "=<",
+          "col_11": ":",
+          "col_12": "|",
+          "col_13": null,
+          "col_14": "t",
+          "col_15": null,
+          "col_16": null,
+          "col_17": null,
+          "col_18": null,
+          "col_19": null,
+          "col_20": null,
+          "col_21": null,
+          "col_22": null,
+          "col_23": "t",
+          "_confidence": 0.371
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.47,
+          "bbox": [
+            239,
+            182,
+            260,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.37,
+          "bbox": [
+            321,
+            182,
+            358,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_7",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.35,
+          "bbox": [
+            358,
+            182,
+            386,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_9",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.26,
+          "bbox": [
+            415,
+            182,
+            438,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_10",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.43,
+          "bbox": [
+            438,
+            182,
+            465,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_11",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.24,
+          "bbox": [
+            465,
+            182,
+            506,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_13",
+          "value": "i",
+          "raw_text": "i",
+          "confidence": 0.32,
+          "bbox": [
+            547,
+            182,
+            588,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_15",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.09,
+          "bbox": [
+            628,
+            182,
+            669,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_16",
+          "value": "-",
+          "raw_text": "-",
+          "confidence": 0.0,
+          "bbox": [
+            669,
+            182,
+            710,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_17",
+          "value": ";",
+          "raw_text": ";",
+          "confidence": 0.41,
+          "bbox": [
+            710,
+            182,
+            752,
+            328
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_2",
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.54,
+          "bbox": [
+            239,
+            328,
+            260,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_9",
+          "value": "°",
+          "raw_text": "°",
+          "confidence": 0.26,
+          "bbox": [
+            415,
+            328,
+            438,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_10",
+          "value": "=<",
+          "raw_text": "=<",
+          "confidence": 0.31,
+          "bbox": [
+            438,
+            328,
+            465,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_11",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.33,
+          "bbox": [
+            465,
+            328,
+            506,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_12",
+          "value": "|",
+          "raw_text": "|",
+          "confidence": 0.23,
+          "bbox": [
+            506,
+            328,
+            547,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_14",
+          "value": "t",
+          "raw_text": "t",
+          "confidence": 0.44,
+          "bbox": [
+            588,
+            328,
+            628,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_23",
+          "value": "t",
+          "raw_text": "t",
+          "confidence": 0.0,
+          "bbox": [
+            955,
+            328,
+            996,
+            406
+          ]
+        }
+      ],
+      "_meta": {
+        "orientation_applied": 90,
+        "orientation_method": "osd",
+        "skew_deg": 0.769,
+        "grid_rows": 20,
+        "grid_cols": 24,
+        "cells_total": 480,
+        "cells_empty": 416,
+        "cells_dash": 0,
+        "cells_ocr": 40,
+        "cells_low_confidence": 17,
+        "mean_ocr_confidence": 0.142,
+        "matched_header_text": "oii UE es | ee oe reas | HEA ERE TARR CTRL TTT hi m = = S = CUT",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 8.8
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

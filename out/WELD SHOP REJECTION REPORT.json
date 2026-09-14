@@ -1,0 +1,556 @@
+{
+  "file": "WELD SHOP REJECTION REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "wv",
+          "col_1": null,
+          "col_2": "LINE REJECTION Ri",
+          "col_3": "=PORT",
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REV NO:-00",
+          "_confidence": 0.719
+        },
+        {
+          "_row": 2,
+          "col_0": "— 4: =e",
+          "col_1": null,
+          "col_2": "WELDSHOP",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REV DATE:-00",
+          "_confidence": 0.876
+        },
+        {
+          "_row": 3,
+          "col_0": "Virrw",
+          "col_1": null,
+          "col_2": null,
+          "col_3": "MONTH::-",
+          "col_4": "TU ¢",
+          "col_5": "6.",
+          "col_6": "ORG DATE:-01.04.2017",
+          "_confidence": 0.666
+        },
+        {
+          "_row": 4,
+          "col_0": "S.NO.",
+          "col_1": "ITEM CODE",
+          "col_2": "MATERIAL PARTICULARS",
+          "col_3": "UNIT",
+          "col_4": "ae",
+          "col_5": "VENDOR NAME",
+          "col_6": "REASON / REMARKS",
+          "_confidence": 0.845
+        },
+        {
+          "_row": 5,
+          "col_0": "4)",
+          "col_1": "QL T0944",
+          "col_2": "Mato Clow! Ktale (tb.",
+          "col_3": "Nol.",
+          "col_4": "cy",
+          "col_5": "v) PPL PHO",
+          "col_6": "Dou'al! moe.",
+          "_confidence": 0.448
+        },
+        {
+          "_row": 6,
+          "col_0": "(s)",
+          "col_1": "RM Onne?",
+          "col_2": "A | \\ 9.¢ AM :",
+          "col_3": "rol",
+          "col_4": "ex",
+          "col_5": "- b",
+          "col_6": "Pode 0 Or Mh w 40,9",
+          "_confidence": 0.314
+        },
+        {
+          "_row": 7,
+          "col_0": null,
+          "col_1": "OL ann tt",
+          "col_2": "(2 ets au tele Lselon hodee |",
+          "col_3": "Ne §",
+          "col_4": "QI",
+          "col_5": "m\\PPt Plo",
+          "col_6": null,
+          "_confidence": 0.301
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "holy te",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "J sda",
+          "_confidence": 0.778
+        },
+        {
+          "_row": 9,
+          "col_0": "Wt)",
+          "col_1": "Qheondta",
+          "col_2": null,
+          "col_3": "Noe.",
+          "col_4": "94nN",
+          "col_5": "P_ to",
+          "col_6": "Nolo mtb",
+          "_confidence": 0.379
+        },
+        {
+          "_row": 10,
+          "col_0": "Soe",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "_confidence": 0.886
+        },
+        {
+          "_row": 36,
+          "col_0": null,
+          "col_1": "(",
+          "col_2": "‘\\EPARED BY) SIGN ( PROD. Head )",
+          "col_3": "SIGN |",
+          "col_4": "Q.A. Head })",
+          "col_5": "APPROVED BY-VP",
+          "col_6": "Operations)",
+          "_confidence": 0.872
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_0",
+          "value": "wv",
+          "raw_text": "wv",
+          "confidence": 0.36,
+          "bbox": [
+            285,
+            416,
+            398,
+            462
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_3",
+          "value": "=PORT",
+          "raw_text": "=PORT",
+          "confidence": 0.0,
+          "bbox": [
+            1192,
+            416,
+            1326,
+            462
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_0",
+          "value": "— 4: =e",
+          "raw_text": "— 4: =e",
+          "confidence": 0.44,
+          "bbox": [
+            285,
+            462,
+            398,
+            515
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "Virrw",
+          "raw_text": "Virrw",
+          "confidence": 0.15,
+          "bbox": [
+            285,
+            515,
+            398,
+            572
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_4",
+          "value": "TU ¢",
+          "raw_text": "TU ¢",
+          "confidence": 0.27,
+          "bbox": [
+            1326,
+            515,
+            1539,
+            572
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_4",
+          "value": "ae",
+          "raw_text": "ae",
+          "confidence": 0.28,
+          "bbox": [
+            1326,
+            572,
+            1539,
+            686
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_0",
+          "value": "4)",
+          "raw_text": "4)",
+          "confidence": 0.59,
+          "bbox": [
+            285,
+            686,
+            398,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_1",
+          "value": "QL T0944",
+          "raw_text": "QL T0944",
+          "confidence": 0.0,
+          "bbox": [
+            398,
+            686,
+            634,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_2",
+          "value": "Mato Clow! Ktale (tb.",
+          "raw_text": "Mato Clow! Ktale (tb.",
+          "confidence": 0.345,
+          "bbox": [
+            634,
+            686,
+            1192,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_3",
+          "value": "Nol.",
+          "raw_text": "Nol.",
+          "confidence": 0.57,
+          "bbox": [
+            1192,
+            686,
+            1326,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_5",
+          "value": "v) PPL PHO",
+          "raw_text": "v) PPL PHO",
+          "confidence": 0.433,
+          "bbox": [
+            1539,
+            686,
+            1792,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_6",
+          "value": "Dou'al! moe.",
+          "raw_text": "Dou'al! moe.",
+          "confidence": 0.325,
+          "bbox": [
+            1792,
+            686,
+            2229,
+            763
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_0",
+          "value": "(s)",
+          "raw_text": "(s)",
+          "confidence": 0.0,
+          "bbox": [
+            285,
+            763,
+            398,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_1",
+          "value": "RM Onne?",
+          "raw_text": "RM Onne?",
+          "confidence": 0.58,
+          "bbox": [
+            398,
+            763,
+            634,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_2",
+          "value": "A | \\ 9.¢ AM :",
+          "raw_text": "A | \\ 9.¢ AM :",
+          "confidence": 0.333,
+          "bbox": [
+            634,
+            763,
+            1192,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_3",
+          "value": "rol",
+          "raw_text": "rol",
+          "confidence": 0.34,
+          "bbox": [
+            1192,
+            763,
+            1326,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_4",
+          "value": "ex",
+          "raw_text": "ex",
+          "confidence": 0.58,
+          "bbox": [
+            1326,
+            763,
+            1539,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_5",
+          "value": "- b",
+          "raw_text": "- b",
+          "confidence": 0.01,
+          "bbox": [
+            1539,
+            763,
+            1792,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "Pode 0 Or Mh w 40,9",
+          "raw_text": "Pode 0 Or Mh w 40,9",
+          "confidence": 0.352,
+          "bbox": [
+            1792,
+            763,
+            2229,
+            840
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_1",
+          "value": "OL ann tt",
+          "raw_text": "OL ann tt",
+          "confidence": 0.487,
+          "bbox": [
+            398,
+            840,
+            634,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_2",
+          "value": "(2 ets au tele Lselon hodee |",
+          "raw_text": "(2 ets au tele Lselon hodee |",
+          "confidence": 0.524,
+          "bbox": [
+            634,
+            840,
+            1192,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_3",
+          "value": "Ne §",
+          "raw_text": "Ne §",
+          "confidence": 0.365,
+          "bbox": [
+            1192,
+            840,
+            1326,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_4",
+          "value": "QI",
+          "raw_text": "QI",
+          "confidence": 0.42,
+          "bbox": [
+            1326,
+            840,
+            1539,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_5",
+          "value": "m\\PPt Plo",
+          "raw_text": "m\\PPt Plo",
+          "confidence": 0.31,
+          "bbox": [
+            1539,
+            840,
+            1792,
+            918
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_2",
+          "value": "holy te",
+          "raw_text": "holy te",
+          "confidence": 0.205,
+          "bbox": [
+            634,
+            918,
+            1192,
+            994
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_6",
+          "value": "J sda",
+          "raw_text": "J sda",
+          "confidence": 0.39,
+          "bbox": [
+            1792,
+            918,
+            2229,
+            994
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_0",
+          "value": "Wt)",
+          "raw_text": "Wt)",
+          "confidence": 0.05,
+          "bbox": [
+            285,
+            994,
+            398,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_1",
+          "value": "Qheondta",
+          "raw_text": "Qheondta",
+          "confidence": 0.38,
+          "bbox": [
+            398,
+            994,
+            634,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_3",
+          "value": "Noe.",
+          "raw_text": "Noe.",
+          "confidence": 0.57,
+          "bbox": [
+            1192,
+            994,
+            1326,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_4",
+          "value": "94nN",
+          "raw_text": "94nN",
+          "confidence": 0.02,
+          "bbox": [
+            1326,
+            994,
+            1539,
+            1073
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_0",
+          "value": "Soe",
+          "raw_text": "Soe",
+          "confidence": 0.38,
+          "bbox": [
+            285,
+            1073,
+            398,
+            1153
+          ]
+        }
+      ],
+      "_meta": {
+        "orientation_applied": 180,
+        "orientation_method": "osd",
+        "skew_deg": -0.989,
+        "grid_rows": 37,
+        "grid_cols": 7,
+        "cells_total": 259,
+        "cells_empty": 194,
+        "cells_dash": 2,
+        "cells_ocr": 56,
+        "cells_low_confidence": 31,
+        "mean_ocr_confidence": 0.522,
+        "matched_header_text": "& MEENAKSHI POLYMERS PRIVATE LIMITED HARIDWAR DOC.NO- MPPLIF/STRIO7 Vv LINE REJECTION REPORT REV NO:-00 WELDSHOP REV DATE:-00 MPPL — MONTH:- TU\\Y. 06, ORG DATE:-01.04.2017 REJECTION ean wd BAATEDIA! R",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 11.9
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}
