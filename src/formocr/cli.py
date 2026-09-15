@@ -16,11 +16,21 @@ from .engines.tesseract_engine import TesseractEngine
 from .pipeline import process_pdf
 from .template import load_all
 
+# TrOCR pulls in torch/transformers and a ~1.3GB model download, so it is
+# constructed lazily (see _make_engine) rather than imported here - every other
+# engine would otherwise pay that import cost on every invocation.
 ENGINES = {
     "tesseract": TesseractEngine,
+    "trocr": None,
     # "paddle": PaddleEngine,   # next
-    # "trocr":  TrOCREngine,    # next
 }
+
+
+def _make_engine(name: str):
+    if name == "trocr":
+        from .engines.trocr_engine import TrOCREngine
+        return TrOCREngine()
+    return ENGINES[name]()
 
 
 def _targets(path: Path) -> list[Path]:
@@ -39,7 +49,7 @@ def run(args: argparse.Namespace) -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     debug_dir = out_dir / "debug" if args.debug else None
 
-    engine = ENGINES[args.engine]()
+    engine = _make_engine(args.engine)
     templates = load_all()
     print(f"engine: {engine.name}   templates: {len(templates)}")
 
