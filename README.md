@@ -29,6 +29,8 @@ $env:PYTHONPATH="src"
 .venv\Scripts\python.exe -m formocr run "Minakshi Polymers"          # folder or single PDF
 .venv\Scripts\python.exe -m formocr run "Minakshi Polymers" --debug  # + grid overlays
 ```
+single pdf -> " python -m formocr run "Minakshi Polymers\riteshTest.pdf" --debug "
+
 
 Output lands in `out/<name>.json`; `--debug` writes grid overlays to `out/debug/`.
 **Look at the overlays before trusting any number** — a misaligned lattice produces

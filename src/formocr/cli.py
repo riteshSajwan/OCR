@@ -65,8 +65,9 @@ def run(args: argparse.Namespace) -> int:
                 print(f"   page {page['page']}: text layer, {len(page['text'])} chars")
                 continue
             meta = page["_meta"]
+            persp = "persp+ " if meta["perspective_corrected"] else ""
             print(
-                f"   page {page['page']}: {page['form_id']}  "
+                f"   page {page['page']}: {persp}{page['form_id']}  "
                 f"{len(page['rows'])} rows  "
                 f"grid {meta['grid_rows']}x{meta['grid_cols']}  "
                 f"rot {meta['orientation_applied']}  "

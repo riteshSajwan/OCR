@@ -15,11 +15,26 @@ import numpy as np
 # A ruling line spans much of the table; this fraction of the strongest projection
 # separates real lines from dense text rows.
 LINE_PEAK_FRAC = 0.30
+# Vertical lines get a lower bar than horizontal ones: a photographed page can
+# light one side of the table more than the other, weakening some column rules
+# relative to the page's single strongest line without weakening them in any
+# absolute sense. Swept against every sample: 0.20 recovers the columns that a
+# global 0.30 threshold drops on unevenly-lit photos, with zero change to any
+# flatbed scan's detected column count; going lower starts manufacturing a
+# false column on the densest sample (ST. Pass weld data).
+VERTICAL_LINE_PEAK_FRAC = 0.20
 # Boundaries closer than this are the two edges of one thick line, not two lines.
 MERGE_WITHIN_PX = 12
 # Discard slivers that cannot hold a value.
 MIN_CELL_W = 18
 MIN_CELL_H = 12
+
+# The table's line mask must cover at least this fraction of the page to be
+# trusted as the table outline rather than stray marks.
+MIN_TABLE_AREA_FRAC = 0.20
+# Opposite sides within this fraction of each other's length are treated as a
+# simple rotated rectangle (a flatbed scan) rather than true camera perspective.
+PERSPECTIVE_SIDE_TOLERANCE = 0.035
 
 
 @dataclass
@@ -95,6 +110,92 @@ def line_masks(bw: np.ndarray, scale: int = 40) -> tuple[np.ndarray, np.ndarray]
     return horizontal, vertical
 
 
+def _order_corners(pts: np.ndarray) -> np.ndarray:
+    """Order four points as top-left, top-right, bottom-right, bottom-left."""
+    total = pts.sum(axis=1)
+    diff = np.diff(pts, axis=1).ravel()
+    return np.array([
+        pts[np.argmin(total)],  # top-left: smallest x+y
+        pts[np.argmin(diff)],   # top-right: smallest y-x
+        pts[np.argmax(total)],  # bottom-right: largest x+y
+        pts[np.argmax(diff)],   # bottom-left: largest y-x
+    ], dtype=np.float32)
+
+
+def find_table_corners(img: np.ndarray) -> np.ndarray | None:
+    """Locate the table's four outer corners from its own ruling lines.
+
+    Using the printed lattice rather than the page/background edge works
+    regardless of scan vs. photo, cropping, or background clutter - it is the
+    same line mask `detect()` already relies on. Returns None when no confident
+    quadrilateral is found, so callers can leave the page untouched.
+    """
+    bw = binarize(img)
+    horizontal, vertical = line_masks(bw)
+    lines = cv2.bitwise_or(horizontal, vertical)
+    lines = cv2.dilate(lines, cv2.getStructuringElement(cv2.MORPH_RECT, (15, 15)), iterations=2)
+
+    contours, _ = cv2.findContours(lines, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    if not contours:
+        return None
+    largest = max(contours, key=cv2.contourArea)
+    if cv2.contourArea(largest) < MIN_TABLE_AREA_FRAC * img.shape[0] * img.shape[1]:
+        return None
+
+    hull = cv2.convexHull(largest)
+    peri = cv2.arcLength(hull, True)
+    for eps_frac in (0.02, 0.03, 0.05, 0.08):
+        approx = cv2.approxPolyDP(hull, eps_frac * peri, True)
+        if len(approx) == 4:
+            return _order_corners(approx.reshape(4, 2).astype(np.float32))
+    return None
+
+
+def rectify(img: np.ndarray) -> tuple[np.ndarray, bool]:
+    """Warp the table to a top-down rectangle if it is genuinely keystoned.
+
+    A flatbed scan's table is already a rectangle, just possibly rotated -
+    `orient.normalize` handles that. A photographed page can additionally be
+    keystoned (the far edge shorter than the near edge), which a single
+    rotation cannot fix and which defeats grid detection: `_boundaries` finds
+    ruling lines by their column/row projection peak, and a slanted line
+    spreads its pixels across a range of columns instead of one, so the peak
+    never clears LINE_PEAK_FRAC. Runs before orientation/skew correction since
+    corner-finding is rotation-invariant but a slanted grid is not.
+    """
+    corners = find_table_corners(img)
+    if corners is None:
+        return img, False
+    tl, tr, br, bl = corners
+
+    top = float(np.linalg.norm(tr - tl))
+    bottom = float(np.linalg.norm(br - bl))
+    left = float(np.linalg.norm(bl - tl))
+    right = float(np.linalg.norm(br - tr))
+    if min(top, bottom) < 10 or min(left, right) < 10:
+        return img, False
+
+    # A simple rotation keeps opposite sides equal length (still a rectangle).
+    # Only warp when they genuinely differ - real perspective, not just skew.
+    horiz_ratio = abs(top - bottom) / max(top, bottom)
+    vert_ratio = abs(left - right) / max(left, right)
+    if horiz_ratio < PERSPECTIVE_SIDE_TOLERANCE and vert_ratio < PERSPECTIVE_SIDE_TOLERANCE:
+        return img, False
+
+    width = int(round(max(top, bottom)))
+    height = int(round(max(left, right)))
+    dst = np.array(
+        [[0, 0], [width - 1, 0], [width - 1, height - 1], [0, height - 1]],
+        dtype=np.float32,
+    )
+    matrix = cv2.getPerspectiveTransform(corners, dst)
+    warped = cv2.warpPerspective(
+        img, matrix, (width, height),
+        flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REPLICATE,
+    )
+    return warped, True
+
+
 def _boundaries(mask: np.ndarray, axis: int, peak_frac: float = LINE_PEAK_FRAC) -> list[int]:
     """Collapse a line mask to one coordinate per ruling line."""
     projection = (mask > 0).sum(axis=axis).astype(np.float64)
@@ -122,13 +223,23 @@ def _drop_tight(coords: list[int], min_gap: int) -> list[int]:
     return kept
 
 
-def detect(img: np.ndarray, scale: int = 40) -> Grid:
-    """Detect the table lattice and enumerate its cells."""
+def detect(img: np.ndarray, scale: int = 40, *, relaxed_columns: bool = False) -> Grid:
+    """Detect the table lattice and enumerate its cells.
+
+    `relaxed_columns` lowers the vertical-line threshold to VERTICAL_LINE_PEAK_FRAC.
+    Only pass this for photographed pages: uneven lighting there can weaken some
+    column rules relative to the page's single strongest line without weakening
+    them in any absolute sense. On flatbed scans, lighting is uniform enough that
+    the standard threshold already finds every column - relaxing it there instead
+    risks dense numeric columns coincidentally aligning into a fake line (seen on
+    the two busiest sample grids during testing).
+    """
     bw = binarize(img)
     horizontal, vertical = line_masks(bw, scale=scale)
 
+    v_peak_frac = VERTICAL_LINE_PEAK_FRAC if relaxed_columns else LINE_PEAK_FRAC
     ys = _drop_tight(_boundaries(horizontal, axis=1), MIN_CELL_H)
-    xs = _drop_tight(_boundaries(vertical, axis=0), MIN_CELL_W)
+    xs = _drop_tight(_boundaries(vertical, axis=0, peak_frac=v_peak_frac), MIN_CELL_W)
 
     cells: list[Cell] = []
     for r in range(len(ys) - 1):

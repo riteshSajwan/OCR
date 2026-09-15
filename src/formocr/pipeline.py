@@ -52,8 +52,11 @@ def process_page(
 ) -> dict:
     started = time.time()
 
-    upright, orientation = orient.normalize(img)
-    grid = gridmod.detect(upright)
+    # A photographed page can be keystoned in a way a single rotation cannot
+    # fix; a flatbed scan is already rectangular and passes through untouched.
+    rectified, perspective_corrected = gridmod.rectify(img)
+    upright, orientation = orient.normalize(rectified)
+    grid = gridmod.detect(upright, relaxed_columns=perspective_corrected)
 
     # Subtract the printed lattice once, up front. Everything downstream reads
     # these instead of the raw page: `ink` for deciding whether a cell holds
@@ -152,6 +155,7 @@ def process_page(
         "rows": rows,
         "review_queue": review,
         "_meta": {
+            "perspective_corrected": perspective_corrected,
             "orientation_applied": orientation.rotation,
             "orientation_method": orientation.method,
             "skew_deg": orientation.skew,

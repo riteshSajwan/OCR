@@ -16,7 +16,7 @@ from ..config import configure_tesseract
 from .base import Block, Reading
 
 # PSM 7 = one text line; PSM 6 = a uniform block. Cells are single lines.
-CELL_PSM = 7
+CELL_PSM = 6
 DIGITS = "0123456789"
 
 
