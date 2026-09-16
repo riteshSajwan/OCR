@@ -1,0 +1,541 @@
+{
+  "file": "SUPPLIER REJECTION REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "ugger",
+          "col_1": null,
+          "col_2": "0 1 .",
+          "col_3": "jpplier RI",
+          "col_4": "jection rep",
+          "col_5": "drut .",
+          "col_6": "# not more .",
+          "col_7": null,
+          "_confidence": 0.708
+        },
+        {
+          "_row": 2,
+          "col_0": "date",
+          "col_1": "pariname .",
+          "col_2": "supplier name .",
+          "col_3": "lorety .",
+          "col_4": "rejectionity .",
+          "col_5": "okary .",
+          "col_6": "2 1 Problem description . \"",
+          "col_7": "2 remarks .",
+          "_confidence": 0.698
+        },
+        {
+          "_row": 3,
+          "col_0": "glsize",
+          "col_1": "rubber-chug",
+          "col_2": "abethingues",
+          "col_3": "schools here",
+          "col_4": "360,",
+          "col_5": "so",
+          "col_6": "1 Rusty ,",
+          "col_7": null,
+          "_confidence": 0.575
+        },
+        {
+          "_row": 4,
+          "col_0": null,
+          "col_1": "REALED TESTTH",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "_confidence": 0.901
+        },
+        {
+          "_row": 5,
+          "col_0": "signee .",
+          "col_1": "1 .1 Democrats",
+          "col_2": ", thirtle .",
+          "col_3": "un-1969",
+          "col_4": "exken .",
+          "col_5": "0 .",
+          "col_6": "\" however his President in 1852",
+          "col_7": null,
+          "_confidence": 0.587
+        },
+        {
+          "_row": 6,
+          "col_0": null,
+          "col_1": "film .",
+          "col_2": "hues .",
+          "col_3": "1st",
+          "col_4": null,
+          "col_5": null,
+          "col_6": "is the position",
+          "col_7": null,
+          "_confidence": 0.735
+        },
+        {
+          "_row": 7,
+          "col_0": null,
+          "col_1": "0 0",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "0 0000",
+          "col_7": null,
+          "_confidence": 0.799
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "0 1 .",
+          "col_7": null,
+          "_confidence": 0.902
+        },
+        {
+          "_row": 9,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "0 1 .",
+          "col_7": null,
+          "_confidence": 0.909
+        },
+        {
+          "_row": 10,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "0 0000000",
+          "col_7": null,
+          "_confidence": 0.875
+        },
+        {
+          "_row": 19,
+          "col_0": "0 1 .",
+          "col_1": "gnincoming a",
+          "col_2": null,
+          "col_3": "1 signed .",
+          "col_4": "urchase",
+          "col_5": null,
+          "col_6": "2 2 2 season-wood . WI",
+          "col_7": "sign-hodplant .",
+          "_confidence": 0.682
+        },
+        {
+          "_row": 20,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "2 1 2",
+          "col_7": null,
+          "_confidence": 0.88
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_0",
+          "value": "ugger",
+          "raw_text": "ugger",
+          "confidence": 0.274,
+          "bbox": [
+            216,
+            268,
+            357,
+            322
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "0 1 .",
+          "raw_text": "0 1 .",
+          "confidence": 0.541,
+          "bbox": [
+            648,
+            268,
+            848,
+            322
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": "# not more .",
+          "raw_text": "# not more .",
+          "confidence": 0.26,
+          "bbox": [
+            1351,
+            268,
+            1972,
+            322
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_3",
+          "value": "lorety .",
+          "raw_text": "lorety .",
+          "confidence": 0.547,
+          "bbox": [
+            848,
+            322,
+            1000,
+            392
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_6",
+          "value": "2 1 Problem description . \"",
+          "raw_text": "2 1 Problem description . \"",
+          "confidence": 0.523,
+          "bbox": [
+            1351,
+            322,
+            1972,
+            392
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_7",
+          "value": "2 remarks .",
+          "raw_text": "2 remarks .",
+          "confidence": 0.539,
+          "bbox": [
+            1972,
+            322,
+            2228,
+            392
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "glsize",
+          "raw_text": "glsize",
+          "confidence": 0.399,
+          "bbox": [
+            216,
+            392,
+            357,
+            475
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_1",
+          "value": "rubber-chug",
+          "raw_text": "rubber-chug",
+          "confidence": 0.582,
+          "bbox": [
+            357,
+            392,
+            648,
+            475
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_2",
+          "value": "abethingues",
+          "raw_text": "abethingues",
+          "confidence": 0.37,
+          "bbox": [
+            648,
+            392,
+            848,
+            475
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_3",
+          "value": "schools here",
+          "raw_text": "schools here",
+          "confidence": 0.353,
+          "bbox": [
+            848,
+            392,
+            1000,
+            475
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_6",
+          "value": "1 Rusty ,",
+          "raw_text": "1 Rusty ,",
+          "confidence": 0.594,
+          "bbox": [
+            1351,
+            392,
+            1972,
+            475
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_1",
+          "value": "REALED TESTTH",
+          "raw_text": "REALED TESTTH",
+          "confidence": 0.416,
+          "bbox": [
+            357,
+            475,
+            648,
+            560
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_1",
+          "value": "1 .1 Democrats",
+          "raw_text": "1 .1 Democrats",
+          "confidence": 0.41,
+          "bbox": [
+            357,
+            560,
+            648,
+            642
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_2",
+          "value": ", thirtle .",
+          "raw_text": ", thirtle .",
+          "confidence": 0.585,
+          "bbox": [
+            648,
+            560,
+            848,
+            642
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_3",
+          "value": "un-1969",
+          "raw_text": "un-1969",
+          "confidence": 0.345,
+          "bbox": [
+            848,
+            560,
+            1000,
+            642
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_4",
+          "value": "exken .",
+          "raw_text": "exken .",
+          "confidence": 0.494,
+          "bbox": [
+            1000,
+            560,
+            1200,
+            642
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_6",
+          "value": "\" however his President in 1852",
+          "raw_text": "\" however his President in 1852",
+          "confidence": 0.261,
+          "bbox": [
+            1351,
+            560,
+            1972,
+            642
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_3",
+          "value": "1st",
+          "raw_text": "1st",
+          "confidence": 0.26,
+          "bbox": [
+            848,
+            642,
+            1000,
+            728
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "is the position",
+          "raw_text": "is the position",
+          "confidence": 0.27,
+          "bbox": [
+            1351,
+            642,
+            1972,
+            728
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_1",
+          "value": "0 0",
+          "raw_text": "0 0",
+          "confidence": 0.296,
+          "bbox": [
+            357,
+            728,
+            648,
+            812
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_6",
+          "value": "0 0000",
+          "raw_text": "0 0000",
+          "confidence": 0.273,
+          "bbox": [
+            1351,
+            728,
+            1972,
+            812
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_6",
+          "value": "0 1 .",
+          "raw_text": "0 1 .",
+          "confidence": 0.424,
+          "bbox": [
+            1351,
+            812,
+            1972,
+            896
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_6",
+          "value": "0 1 .",
+          "raw_text": "0 1 .",
+          "confidence": 0.479,
+          "bbox": [
+            1351,
+            896,
+            1972,
+            980
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_6",
+          "value": "0 0000000",
+          "raw_text": "0 0000000",
+          "confidence": 0.212,
+          "bbox": [
+            1351,
+            980,
+            1972,
+            1064
+          ]
+        },
+        {
+          "row": 19,
+          "column": "col_0",
+          "value": "0 1 .",
+          "raw_text": "0 1 .",
+          "confidence": 0.508,
+          "bbox": [
+            216,
+            1733,
+            357,
+            1816
+          ]
+        },
+        {
+          "row": 19,
+          "column": "col_1",
+          "value": "gnincoming a",
+          "raw_text": "gnincoming a",
+          "confidence": 0.593,
+          "bbox": [
+            357,
+            1733,
+            648,
+            1816
+          ]
+        },
+        {
+          "row": 19,
+          "column": "col_6",
+          "value": "2 2 2 season-wood . WI",
+          "raw_text": "2 2 2 season-wood . WI",
+          "confidence": 0.32,
+          "bbox": [
+            1351,
+            1733,
+            1972,
+            1816
+          ]
+        },
+        {
+          "row": 20,
+          "column": "col_6",
+          "value": "2 1 2",
+          "raw_text": "2 1 2",
+          "confidence": 0.253,
+          "bbox": [
+            1351,
+            1816,
+            1972,
+            3480
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 0,
+        "orientation_method": "osd",
+        "skew_deg": -0.249,
+        "grid_rows": 21,
+        "grid_cols": 8,
+        "cells_total": 168,
+        "cells_empty": 115,
+        "cells_dash": 0,
+        "cells_ocr": 45,
+        "cells_low_confidence": 28,
+        "mean_ocr_confidence": 0.545,
+        "matched_header_text": "<> MEENAKSHI POLYMERS PRIVATE LIMITED(HARIDWAR) v SUPPLIER REJECTION REPORT MONTH\" yy -2¢ slatre Rubborthug Agbinond</ <60n 0 Ruy, Pedleel \\CI7 Giatie tas Cale eno eset ete 6 of: olin an abe",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 105.6
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

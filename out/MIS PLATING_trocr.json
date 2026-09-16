@@ -1,0 +1,3091 @@
+{
+  "file": "MIS PLATING.pdf",
+  "pages": [
+    {
+      "form_id": "mis_plating",
+      "rows": [
+        {
+          "_row": 4,
+          "sr_no": 11,
+          "defect": "I Peeloff 1951",
+          "reason": "platingshop",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 1,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 9,
+          "total": 2,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 52,
+          "total_final": 2,
+          "_confidence": 0.797,
+          "_check_failures": [
+            "total=2 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=10"
+          ]
+        },
+        {
+          "_row": 5,
+          "sr_no": 32,
+          "defect": "touching",
+          "reason": "platingshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 51,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.893,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=51"
+          ]
+        },
+        {
+          "_row": 6,
+          "sr_no": 43,
+          "defect": "dullplating .",
+          "reason": "plating shop .",
+          "cr_aael": 25,
+          "cr_aad": 20,
+          "engine_guard": 31,
+          "pedal_brake": 90,
+          "pgc": 90,
+          "handle": 0,
+          "total": 106,
+          "renickel": 506,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 106,
+          "_confidence": 0.906,
+          "_check_failures": [
+            "total=106 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=256"
+          ]
+        },
+        {
+          "_row": 7,
+          "sr_no": 14,
+          "defect": "claening fault ...",
+          "reason": "platingshop .",
+          "cr_aael": 0,
+          "cr_aad": 2,
+          "engine_guard": 7,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 9,
+          "renickel": 9,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 9,
+          "_confidence": 0.757
+        },
+        {
+          "_row": 8,
+          "sr_no": 25,
+          "defect": "plating pitting .",
+          "reason": "plaring shop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.932
+        },
+        {
+          "_row": 9,
+          "sr_no": 36,
+          "defect": "yellow .",
+          "reason": "plaring shop .",
+          "cr_aael": 25,
+          "cr_aad": 45,
+          "engine_guard": 0,
+          "pedal_brake": 60,
+          "pgc": 15,
+          "handle": 2,
+          "total": 947,
+          "renickel": 0,
+          "rechrome": 1471,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 147,
+          "_confidence": 0.871,
+          "_check_failures": [
+            "total=947 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=147"
+          ]
+        },
+        {
+          "_row": 10,
+          "sr_no": 47,
+          "defect": "roughness .",
+          "reason": "plating shop .",
+          "cr_aael": 16,
+          "cr_aad": 94,
+          "engine_guard": 20,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 50,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 50,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 50,
+          "_confidence": 0.926,
+          "_check_failures": [
+            "total=50 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=130"
+          ]
+        },
+        {
+          "_row": 11,
+          "sr_no": 58,
+          "defect": "passive buff ...",
+          "reason": "plating shop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 12,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.88
+        },
+        {
+          "_row": 12,
+          "sr_no": 9,
+          "defect": "chromebuff .",
+          "reason": "platingshop .",
+          "cr_aael": 16,
+          "cr_aad": 92,
+          "engine_guard": 221,
+          "pedal_brake": 45,
+          "pgc": 0,
+          "handle": 0,
+          "total": 95,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 195,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 45,
+          "_confidence": 0.855,
+          "_check_failures": [
+            "total=95 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=374"
+          ]
+        },
+        {
+          "_row": 13,
+          "sr_no": 10,
+          "defect": "handled over size",
+          "reason": "platingshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 24,
+          "total": 24,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 24,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 24,
+          "_confidence": 0.958
+        },
+        {
+          "_row": 14,
+          "sr_no": 1,
+          "defect": "stalplating defect .",
+          "reason": null,
+          "cr_aael": 82,
+          "cr_aad": 93,
+          "engine_guard": 1890,
+          "pedal_brake": 925,
+          "pgc": 25,
+          "handle": 27,
+          "total": 4333,
+          "renickel": 195,
+          "rechrome": 1447,
+          "bufff": 95,
+          "ok": 749,
+          "b_grade": 0,
+          "scrap": 521,
+          "total_final": 4231,
+          "_confidence": 0.793,
+          "_check_failures": [
+            "total=4333 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=3042"
+          ]
+        },
+        {
+          "_row": 16,
+          "sr_no": 11,
+          "defect": "cleaning fault .",
+          "reason": "wellshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 1,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.895
+        },
+        {
+          "_row": 17,
+          "sr_no": 12,
+          "defect": "spatter 1000",
+          "reason": "wellorship",
+          "cr_aael": 4,
+          "cr_aad": 3,
+          "engine_guard": 2,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 49,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 49,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 99,
+          "_confidence": 0.829,
+          "_check_failures": [
+            "total=49 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=9"
+          ]
+        },
+        {
+          "_row": 18,
+          "sr_no": 13,
+          "defect": "mighty-",
+          "reason": "wellshop",
+          "cr_aael": 92,
+          "cr_aad": 1,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 3,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 3,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 103,
+          "_confidence": 0.865,
+          "_check_failures": [
+            "total=3 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=93"
+          ]
+        },
+        {
+          "_row": 19,
+          "sr_no": 14,
+          "defect": "pedalcut .",
+          "reason": "wellbishop .",
+          "cr_aael": 2,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.923,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=2"
+          ]
+        },
+        {
+          "_row": 20,
+          "sr_no": 15,
+          "defect": "Tracibility Miss",
+          "reason": "wellshop .",
+          "cr_aael": 2,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.895,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=2"
+          ]
+        },
+        {
+          "_row": 21,
+          "sr_no": 16,
+          "defect": "welding puncture",
+          "reason": "wellshop .",
+          "cr_aael": 61,
+          "cr_aad": 21,
+          "engine_guard": 15,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 95,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 95,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 951,
+          "_confidence": 0.817,
+          "_check_failures": [
+            "total=95 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=97"
+          ]
+        },
+        {
+          "_row": 22,
+          "sr_no": 13,
+          "defect": "weldingpinhole .",
+          "reason": "wellshop",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 1795,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.851,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=1795"
+          ]
+        },
+        {
+          "_row": 23,
+          "sr_no": 1,
+          "defect": "Bundersize",
+          "reason": "2 2",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 3,
+          "pgc": 0,
+          "handle": 0,
+          "total": 3,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 3,
+          "b_grade": 1,
+          "scrap": 0,
+          "total_final": 5,
+          "_confidence": 0.717
+        },
+        {
+          "_row": 24,
+          "sr_no": 19,
+          "defect": "wireshort 2000",
+          "reason": "wellshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.935
+        },
+        {
+          "_row": 25,
+          "sr_no": 20,
+          "defect": "welding Miss .",
+          "reason": "wellshop",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.931
+        },
+        {
+          "_row": 26,
+          "sr_no": 21,
+          "defect": "weddingshift ...",
+          "reason": "wellshop",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 2,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.86,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=2"
+          ]
+        },
+        {
+          "_row": 27,
+          "sr_no": 2232,
+          "defect": "spattersound .",
+          "reason": "wellshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 3,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 53,
+          "renickel": 1,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 3,
+          "scrap": 0,
+          "total_final": 3,
+          "_confidence": 0.764,
+          "_check_failures": [
+            "total=53 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=3"
+          ]
+        },
+        {
+          "_row": 28,
+          "sr_no": 23,
+          "defect": "welding in complete .",
+          "reason": "wellshop",
+          "cr_aael": 1,
+          "cr_aad": 1,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 2,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 2,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 2,
+          "_confidence": 0.824
+        },
+        {
+          "_row": 29,
+          "sr_no": 2274,
+          "defect": "excess welding",
+          "reason": "wellshop",
+          "cr_aael": null,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.909
+        },
+        {
+          "_row": 30,
+          "sr_no": 25,
+          "defect": "grinding mark ...",
+          "reason": "wellshop",
+          "cr_aael": 2,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 12,
+          "total": 22,
+          "renickel": 52,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 2,
+          "scrap": 0,
+          "total_final": 8011,
+          "_confidence": 0.77,
+          "_check_failures": [
+            "total=22 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=14"
+          ]
+        },
+        {
+          "_row": 31,
+          "sr_no": 1001,
+          "defect": "welding defect",
+          "reason": null,
+          "cr_aael": 95,
+          "cr_aad": 9,
+          "engine_guard": 90,
+          "pedal_brake": 3,
+          "pgc": 0,
+          "handle": 2,
+          "total": 49,
+          "renickel": 2,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 42,
+          "b_grade": 5,
+          "scrap": 0,
+          "total_final": 249,
+          "_confidence": 0.74,
+          "_check_failures": [
+            "total=49 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=199"
+          ]
+        },
+        {
+          "_row": 32,
+          "sr_no": 1,
+          "defect": "welding defect 96.",
+          "reason": null,
+          "cr_aael": null,
+          "cr_aad": null,
+          "engine_guard": 0,
+          "pedal_brake": null,
+          "pgc": null,
+          "handle": null,
+          "total": null,
+          "renickel": null,
+          "rechrome": null,
+          "bufff": null,
+          "ok": null,
+          "b_grade": null,
+          "scrap": null,
+          "total_final": 0,
+          "_confidence": 0.932
+        },
+        {
+          "_row": 33,
+          "sr_no": 25,
+          "defect": "Rusty Mark Thompson",
+          "reason": "0 0",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.862
+        },
+        {
+          "_row": 34,
+          "sr_no": 2266,
+          "defect": "grainopening",
+          "reason": "2 000",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 22,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.849,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=22"
+          ]
+        },
+        {
+          "_row": 35,
+          "sr_no": 2277,
+          "defect": "PGC three and Miss",
+          "reason": "2 door .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.909
+        },
+        {
+          "_row": 36,
+          "sr_no": 228,
+          "defect": "material fault ...",
+          "reason": "2 000",
+          "cr_aael": 49,
+          "cr_aad": 2,
+          "engine_guard": 90,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 6,
+          "total": 22,
+          "renickel": 1949,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 8,
+          "scrap": 0,
+          "total_final": 222,
+          "_confidence": 0.76,
+          "_check_failures": [
+            "total=22 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=147"
+          ]
+        },
+        {
+          "_row": 37,
+          "sr_no": 29,
+          "defect": "material pitting ...",
+          "reason": "2 3 2",
+          "cr_aael": 2,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 79,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 1072,
+          "_confidence": 0.831,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=2"
+          ]
+        },
+        {
+          "_row": 38,
+          "sr_no": 30,
+          "defect": "PGC Thread opposite",
+          "reason": "2 500",
+          "cr_aael": 4,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.902,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=4"
+          ]
+        },
+        {
+          "_row": 39,
+          "sr_no": 31,
+          "defect": "Line mark #",
+          "reason": "2 000",
+          "cr_aael": 92,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 12,
+          "total": 49,
+          "renickel": 2,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 12,
+          "scrap": 0,
+          "total_final": 21,
+          "_confidence": 0.781,
+          "_check_failures": [
+            "total=49 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=104"
+          ]
+        },
+        {
+          "_row": 40,
+          "sr_no": 32,
+          "defect": "cobendustay .",
+          "reason": "wellshop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 3,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 3,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 5,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 373,
+          "_confidence": 0.821
+        },
+        {
+          "_row": 41,
+          "sr_no": 33,
+          "defect": "Barline 2000",
+          "reason": "PRESS SHOP",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.922
+        },
+        {
+          "_row": 42,
+          "sr_no": 34,
+          "defect": "WRINKLE W.",
+          "reason": "machine shop .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.943
+        },
+        {
+          "_row": 43,
+          "sr_no": 35,
+          "defect": "diemarkon pipe .",
+          "reason": "PRESS SHOP",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.938
+        },
+        {
+          "_row": 44,
+          "sr_no": null,
+          "defect": "total BOP defect ...",
+          "reason": null,
+          "cr_aael": 8,
+          "cr_aad": 2,
+          "engine_guard": 193,
+          "pedal_brake": 1,
+          "pgc": 0,
+          "handle": 0,
+          "total": 39,
+          "renickel": 958,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 3,
+          "b_grade": 90,
+          "scrap": 0,
+          "total_final": 139,
+          "_confidence": 0.679,
+          "_check_failures": [
+            "total=39 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=204"
+          ]
+        },
+        {
+          "_row": 46,
+          "sr_no": 13,
+          "defect": "tent # scratch .",
+          "reason": "pharrelling",
+          "cr_aael": 87,
+          "cr_aad": 1,
+          "engine_guard": 90,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 921,
+          "total": 35,
+          "renickel": 1957,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 18,
+          "scrap": 0,
+          "total_final": 1935,
+          "_confidence": 0.732,
+          "_check_failures": [
+            "total=35 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=1099"
+          ]
+        },
+        {
+          "_row": 47,
+          "sr_no": 31,
+          "defect": "buffinging success",
+          "reason": "buffing shop .",
+          "cr_aael": 5,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 1,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 1,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.802,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=6"
+          ]
+        },
+        {
+          "_row": 48,
+          "sr_no": 38,
+          "defect": "wrong stamp .",
+          "reason": "2 Federation .",
+          "cr_aael": 4,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.885,
+          "_check_failures": [
+            "total=0 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=4"
+          ]
+        },
+        {
+          "_row": 49,
+          "sr_no": 339,
+          "defect": "handle punch Miss",
+          "reason": "2 Federation .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.899
+        },
+        {
+          "_row": 50,
+          "sr_no": 40,
+          "defect": "handle stamp miss .",
+          "reason": "rebraction .",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.928
+        },
+        {
+          "_row": 53,
+          "sr_no": 41,
+          "defect": "Icenterless mark .000",
+          "reason": "centerless shot",
+          "cr_aael": 0,
+          "cr_aad": 0,
+          "engine_guard": 0,
+          "pedal_brake": 0,
+          "pgc": 0,
+          "handle": 0,
+          "total": 0,
+          "renickel": 0,
+          "rechrome": 0,
+          "bufff": 0,
+          "ok": 0,
+          "b_grade": 0,
+          "scrap": 0,
+          "total_final": 0,
+          "_confidence": 0.912
+        },
+        {
+          "_row": 56,
+          "sr_no": 0,
+          "defect": "all total defect .",
+          "reason": null,
+          "cr_aael": 992,
+          "cr_aad": 908,
+          "engine_guard": 1924,
+          "pedal_brake": 128,
+          "pgc": 25,
+          "handle": 1591,
+          "total": 548,
+          "renickel": 152,
+          "rechrome": 147,
+          "bufff": 195,
+          "ok": 119,
+          "b_grade": 133,
+          "scrap": 89,
+          "total_final": 1548,
+          "_confidence": 0.777,
+          "_check_failures": [
+            "total=548 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=5568"
+          ]
+        },
+        {
+          "_row": 67,
+          "sr_no": 858858,
+          "defect": "ide-carrier , and # nos. I",
+          "reason": "engine gun .",
+          "cr_aael": 133,
+          "cr_aad": 5008000,
+          "engine_guard": 12,
+          "pedal_brake": 1000000000,
+          "pgc": 50100,
+          "handle": 101,
+          "total": 51,
+          "renickel": null,
+          "rechrome": null,
+          "bufff": 0,
+          "ok": null,
+          "b_grade": null,
+          "scrap": null,
+          "total_final": null,
+          "_confidence": 0.637,
+          "_check_failures": [
+            "total=51 but sum(cr_aael+cr_aad+engine_guard+pedal_brake+pgc+handle)=1005058346"
+          ]
+        },
+        {
+          "_row": 68,
+          "sr_no": 0,
+          "defect": "Arced by-000",
+          "reason": null,
+          "cr_aael": null,
+          "cr_aad": 1120,
+          "engine_guard": 66,
+          "pedal_brake": null,
+          "pgc": null,
+          "handle": null,
+          "total": null,
+          "renickel": null,
+          "rechrome": 11999,
+          "bufff": 53441,
+          "ok": 1970,
+          "b_grade": 1,
+          "scrap": null,
+          "total_final": null,
+          "_confidence": 0.692
+        },
+        {
+          "_row": 69,
+          "sr_no": 1,
+          "defect": null,
+          "reason": null,
+          "cr_aael": null,
+          "cr_aad": null,
+          "engine_guard": null,
+          "pedal_brake": null,
+          "pgc": null,
+          "handle": null,
+          "total": null,
+          "renickel": null,
+          "rechrome": null,
+          "bufff": 511,
+          "ok": 4,
+          "b_grade": 195556,
+          "scrap": null,
+          "total_final": null,
+          "_confidence": 0.83
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 4,
+          "column": "sr_no",
+          "value": 11,
+          "raw_text": "1 1",
+          "confidence": 0.409,
+          "bbox": [
+            75,
+            460,
+            158,
+            501
+          ]
+        },
+        {
+          "row": 4,
+          "column": "defect",
+          "value": "I Peeloff 1951",
+          "raw_text": "I Peeloff 1951",
+          "confidence": 0.457,
+          "bbox": [
+            158,
+            460,
+            505,
+            501
+          ]
+        },
+        {
+          "row": 4,
+          "column": "engine_guard",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.403,
+          "bbox": [
+            880,
+            460,
+            1068,
+            501
+          ]
+        },
+        {
+          "row": 4,
+          "column": "total",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.46,
+          "bbox": [
+            1443,
+            460,
+            1562,
+            501
+          ]
+        },
+        {
+          "row": 5,
+          "column": "engine_guard",
+          "value": 51,
+          "raw_text": "5 1",
+          "confidence": 0.309,
+          "bbox": [
+            880,
+            501,
+            1068,
+            542
+          ]
+        },
+        {
+          "row": 6,
+          "column": "sr_no",
+          "value": 43,
+          "raw_text": "43",
+          "confidence": 0.58,
+          "bbox": [
+            75,
+            542,
+            158,
+            582
+          ]
+        },
+        {
+          "row": 7,
+          "column": "cr_aad",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.377,
+          "bbox": [
+            771,
+            582,
+            880,
+            622
+          ]
+        },
+        {
+          "row": 7,
+          "column": "engine_guard",
+          "value": 7,
+          "raw_text": "0 7",
+          "confidence": 0.435,
+          "bbox": [
+            880,
+            582,
+            1068,
+            622
+          ]
+        },
+        {
+          "row": 7,
+          "column": "total",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.317,
+          "bbox": [
+            1443,
+            582,
+            1562,
+            622
+          ]
+        },
+        {
+          "row": 7,
+          "column": "renickel",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.385,
+          "bbox": [
+            1562,
+            582,
+            1688,
+            622
+          ]
+        },
+        {
+          "row": 7,
+          "column": "total_final",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.312,
+          "bbox": [
+            2238,
+            582,
+            2409,
+            622
+          ]
+        },
+        {
+          "row": 8,
+          "column": "sr_no",
+          "value": 25,
+          "raw_text": "25",
+          "confidence": 0.566,
+          "bbox": [
+            75,
+            622,
+            158,
+            662
+          ]
+        },
+        {
+          "row": 9,
+          "column": "sr_no",
+          "value": 36,
+          "raw_text": "36",
+          "confidence": 0.568,
+          "bbox": [
+            75,
+            662,
+            158,
+            702
+          ]
+        },
+        {
+          "row": 9,
+          "column": "handle",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.439,
+          "bbox": [
+            1335,
+            662,
+            1443,
+            702
+          ]
+        },
+        {
+          "row": 10,
+          "column": "sr_no",
+          "value": 47,
+          "raw_text": "47",
+          "confidence": 0.577,
+          "bbox": [
+            75,
+            702,
+            158,
+            742
+          ]
+        },
+        {
+          "row": 11,
+          "column": "sr_no",
+          "value": 58,
+          "raw_text": "58",
+          "confidence": 0.51,
+          "bbox": [
+            75,
+            742,
+            158,
+            782
+          ]
+        },
+        {
+          "row": 11,
+          "column": "defect",
+          "value": "passive buff ...",
+          "raw_text": "passive buff ...",
+          "confidence": 0.599,
+          "bbox": [
+            158,
+            742,
+            505,
+            782
+          ]
+        },
+        {
+          "row": 11,
+          "column": "bufff",
+          "value": 12,
+          "raw_text": "12",
+          "confidence": 0.406,
+          "bbox": [
+            1828,
+            742,
+            1928,
+            782
+          ]
+        },
+        {
+          "row": 12,
+          "column": "sr_no",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.284,
+          "bbox": [
+            75,
+            782,
+            158,
+            822
+          ]
+        },
+        {
+          "row": 12,
+          "column": "engine_guard",
+          "value": 221,
+          "raw_text": "22 1",
+          "confidence": 0.414,
+          "bbox": [
+            880,
+            782,
+            1068,
+            822
+          ]
+        },
+        {
+          "row": 14,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.326,
+          "bbox": [
+            75,
+            864,
+            158,
+            908
+          ]
+        },
+        {
+          "row": 14,
+          "column": "scrap",
+          "value": 521,
+          "raw_text": "52 1",
+          "confidence": 0.393,
+          "bbox": [
+            2142,
+            864,
+            2238,
+            908
+          ]
+        },
+        {
+          "row": 14,
+          "column": "total_final",
+          "value": 4231,
+          "raw_text": "423 1",
+          "confidence": 0.404,
+          "bbox": [
+            2238,
+            864,
+            2409,
+            908
+          ]
+        },
+        {
+          "row": 15,
+          "column": "sr_no",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.335,
+          "bbox": [
+            75,
+            908,
+            158,
+            954
+          ]
+        },
+        {
+          "row": 16,
+          "column": "b_grade",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.24,
+          "bbox": [
+            2024,
+            954,
+            2142,
+            994
+          ]
+        },
+        {
+          "row": 17,
+          "column": "reason",
+          "value": "wellorship",
+          "raw_text": "wellorship",
+          "confidence": 0.556,
+          "bbox": [
+            505,
+            994,
+            648,
+            1034
+          ]
+        },
+        {
+          "row": 17,
+          "column": "engine_guard",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.473,
+          "bbox": [
+            880,
+            994,
+            1068,
+            1034
+          ]
+        },
+        {
+          "row": 18,
+          "column": "defect",
+          "value": "mighty-",
+          "raw_text": "mighty-",
+          "confidence": 0.557,
+          "bbox": [
+            158,
+            1034,
+            505,
+            1075
+          ]
+        },
+        {
+          "row": 18,
+          "column": "ok",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.377,
+          "bbox": [
+            1928,
+            1034,
+            2024,
+            1075
+          ]
+        },
+        {
+          "row": 20,
+          "column": "cr_aael",
+          "value": 2,
+          "raw_text": "2",
+          "confidence": 0.398,
+          "bbox": [
+            648,
+            1115,
+            771,
+            1156
+          ]
+        },
+        {
+          "row": 21,
+          "column": "cr_aael",
+          "value": 61,
+          "raw_text": "061",
+          "confidence": 0.539,
+          "bbox": [
+            648,
+            1156,
+            771,
+            1196
+          ]
+        },
+        {
+          "row": 21,
+          "column": "engine_guard",
+          "value": 15,
+          "raw_text": "1 5",
+          "confidence": 0.253,
+          "bbox": [
+            880,
+            1156,
+            1068,
+            1196
+          ]
+        },
+        {
+          "row": 21,
+          "column": "total_final",
+          "value": 951,
+          "raw_text": "95 1",
+          "confidence": 0.4,
+          "bbox": [
+            2238,
+            1156,
+            2409,
+            1196
+          ]
+        },
+        {
+          "row": 22,
+          "column": "sr_no",
+          "value": 13,
+          "raw_text": "13",
+          "confidence": 0.427,
+          "bbox": [
+            75,
+            1196,
+            158,
+            1246
+          ]
+        },
+        {
+          "row": 22,
+          "column": "reason",
+          "value": "wellshop",
+          "raw_text": "wellshop",
+          "confidence": 0.466,
+          "bbox": [
+            505,
+            1196,
+            648,
+            1246
+          ]
+        },
+        {
+          "row": 22,
+          "column": "engine_guard",
+          "value": 1795,
+          "raw_text": "1 795",
+          "confidence": 0.234,
+          "bbox": [
+            880,
+            1196,
+            1068,
+            1246
+          ]
+        },
+        {
+          "row": 23,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.251,
+          "bbox": [
+            75,
+            1246,
+            158,
+            1286
+          ]
+        },
+        {
+          "row": 23,
+          "column": "reason",
+          "value": "2 2",
+          "raw_text": "2 2",
+          "confidence": 0.276,
+          "bbox": [
+            505,
+            1246,
+            648,
+            1286
+          ]
+        },
+        {
+          "row": 23,
+          "column": "pedal_brake",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.414,
+          "bbox": [
+            1068,
+            1246,
+            1234,
+            1286
+          ]
+        },
+        {
+          "row": 23,
+          "column": "total",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.39,
+          "bbox": [
+            1443,
+            1246,
+            1562,
+            1286
+          ]
+        },
+        {
+          "row": 23,
+          "column": "b_grade",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.218,
+          "bbox": [
+            2024,
+            1246,
+            2142,
+            1286
+          ]
+        },
+        {
+          "row": 23,
+          "column": "total_final",
+          "value": 5,
+          "raw_text": "0 5",
+          "confidence": 0.274,
+          "bbox": [
+            2238,
+            1246,
+            2409,
+            1286
+          ]
+        },
+        {
+          "row": 26,
+          "column": "reason",
+          "value": "wellshop",
+          "raw_text": "wellshop",
+          "confidence": 0.511,
+          "bbox": [
+            505,
+            1364,
+            648,
+            1404
+          ]
+        },
+        {
+          "row": 26,
+          "column": "pedal_brake",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.24,
+          "bbox": [
+            1068,
+            1364,
+            1234,
+            1404
+          ]
+        },
+        {
+          "row": 27,
+          "column": "engine_guard",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.446,
+          "bbox": [
+            880,
+            1404,
+            1068,
+            1444
+          ]
+        },
+        {
+          "row": 27,
+          "column": "renickel",
+          "value": 1,
+          "raw_text": "1",
+          "confidence": 0.328,
+          "bbox": [
+            1562,
+            1404,
+            1688,
+            1444
+          ]
+        },
+        {
+          "row": 27,
+          "column": "b_grade",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.415,
+          "bbox": [
+            2024,
+            1404,
+            2142,
+            1444
+          ]
+        },
+        {
+          "row": 27,
+          "column": "total_final",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.278,
+          "bbox": [
+            2238,
+            1404,
+            2409,
+            1444
+          ]
+        },
+        {
+          "row": 28,
+          "column": "sr_no",
+          "value": 23,
+          "raw_text": "2 3",
+          "confidence": 0.293,
+          "bbox": [
+            75,
+            1444,
+            158,
+            1486
+          ]
+        },
+        {
+          "row": 28,
+          "column": "reason",
+          "value": "wellshop",
+          "raw_text": "wellshop",
+          "confidence": 0.548,
+          "bbox": [
+            505,
+            1444,
+            648,
+            1486
+          ]
+        },
+        {
+          "row": 28,
+          "column": "ok",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.439,
+          "bbox": [
+            1928,
+            1444,
+            2024,
+            1486
+          ]
+        },
+        {
+          "row": 28,
+          "column": "total_final",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.443,
+          "bbox": [
+            2238,
+            1444,
+            2409,
+            1486
+          ]
+        },
+        {
+          "row": 29,
+          "column": "sr_no",
+          "value": 2274,
+          "raw_text": "2274",
+          "confidence": 0.53,
+          "bbox": [
+            75,
+            1486,
+            158,
+            1527
+          ]
+        },
+        {
+          "row": 29,
+          "column": "reason",
+          "value": "wellshop",
+          "raw_text": "wellshop",
+          "confidence": 0.502,
+          "bbox": [
+            505,
+            1486,
+            648,
+            1527
+          ]
+        },
+        {
+          "row": 30,
+          "column": "reason",
+          "value": "wellshop",
+          "raw_text": "wellshop",
+          "confidence": 0.45,
+          "bbox": [
+            505,
+            1527,
+            648,
+            1568
+          ]
+        },
+        {
+          "row": 30,
+          "column": "cr_aael",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.489,
+          "bbox": [
+            648,
+            1527,
+            771,
+            1568
+          ]
+        },
+        {
+          "row": 30,
+          "column": "handle",
+          "value": 12,
+          "raw_text": "0 12",
+          "confidence": 0.443,
+          "bbox": [
+            1335,
+            1527,
+            1443,
+            1568
+          ]
+        },
+        {
+          "row": 30,
+          "column": "b_grade",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.475,
+          "bbox": [
+            2024,
+            1527,
+            2142,
+            1568
+          ]
+        },
+        {
+          "row": 30,
+          "column": "total_final",
+          "value": 8011,
+          "raw_text": "8011",
+          "confidence": 0.515,
+          "bbox": [
+            2238,
+            1527,
+            2409,
+            1568
+          ]
+        },
+        {
+          "row": 31,
+          "column": "sr_no",
+          "value": 1001,
+          "raw_text": "1001",
+          "confidence": 0.587,
+          "bbox": [
+            75,
+            1568,
+            158,
+            1613
+          ]
+        },
+        {
+          "row": 31,
+          "column": "cr_aad",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.388,
+          "bbox": [
+            771,
+            1568,
+            880,
+            1613
+          ]
+        },
+        {
+          "row": 31,
+          "column": "pgc",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.496,
+          "bbox": [
+            1234,
+            1568,
+            1335,
+            1613
+          ]
+        },
+        {
+          "row": 31,
+          "column": "renickel",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.417,
+          "bbox": [
+            1562,
+            1568,
+            1688,
+            1613
+          ]
+        },
+        {
+          "row": 31,
+          "column": "ok",
+          "value": 42,
+          "raw_text": "4 2",
+          "confidence": 0.316,
+          "bbox": [
+            1928,
+            1568,
+            2024,
+            1613
+          ]
+        },
+        {
+          "row": 32,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "1",
+          "confidence": 0.502,
+          "bbox": [
+            75,
+            1613,
+            158,
+            1658
+          ]
+        },
+        {
+          "row": 33,
+          "column": "reason",
+          "value": "0 0",
+          "raw_text": "0 0",
+          "confidence": 0.447,
+          "bbox": [
+            505,
+            1658,
+            648,
+            1698
+          ]
+        },
+        {
+          "row": 33,
+          "column": "cr_aael",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.582,
+          "bbox": [
+            648,
+            1658,
+            771,
+            1698
+          ]
+        },
+        {
+          "row": 33,
+          "column": "total",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.485,
+          "bbox": [
+            1443,
+            1658,
+            1562,
+            1698
+          ]
+        },
+        {
+          "row": 34,
+          "column": "sr_no",
+          "value": 2266,
+          "raw_text": "2266",
+          "confidence": 0.535,
+          "bbox": [
+            75,
+            1698,
+            158,
+            1737
+          ]
+        },
+        {
+          "row": 34,
+          "column": "reason",
+          "value": "2 000",
+          "raw_text": "2 000",
+          "confidence": 0.297,
+          "bbox": [
+            505,
+            1698,
+            648,
+            1737
+          ]
+        },
+        {
+          "row": 34,
+          "column": "pedal_brake",
+          "value": 22,
+          "raw_text": "2 2",
+          "confidence": 0.302,
+          "bbox": [
+            1068,
+            1698,
+            1234,
+            1737
+          ]
+        },
+        {
+          "row": 35,
+          "column": "defect",
+          "value": "PGC three and Miss",
+          "raw_text": "PGC three and Miss",
+          "confidence": 0.56,
+          "bbox": [
+            158,
+            1737,
+            505,
+            1777
+          ]
+        },
+        {
+          "row": 35,
+          "column": "reason",
+          "value": "2 door .",
+          "raw_text": "2 door .",
+          "confidence": 0.538,
+          "bbox": [
+            505,
+            1737,
+            648,
+            1777
+          ]
+        },
+        {
+          "row": 36,
+          "column": "sr_no",
+          "value": 228,
+          "raw_text": "2 28",
+          "confidence": 0.375,
+          "bbox": [
+            75,
+            1777,
+            158,
+            1818
+          ]
+        },
+        {
+          "row": 36,
+          "column": "reason",
+          "value": "2 000",
+          "raw_text": "2 000",
+          "confidence": 0.413,
+          "bbox": [
+            505,
+            1777,
+            648,
+            1818
+          ]
+        },
+        {
+          "row": 36,
+          "column": "cr_aael",
+          "value": 49,
+          "raw_text": "049",
+          "confidence": 0.556,
+          "bbox": [
+            648,
+            1777,
+            771,
+            1818
+          ]
+        },
+        {
+          "row": 36,
+          "column": "total",
+          "value": 22,
+          "raw_text": "2 2",
+          "confidence": 0.36,
+          "bbox": [
+            1443,
+            1777,
+            1562,
+            1818
+          ]
+        },
+        {
+          "row": 36,
+          "column": "total_final",
+          "value": 222,
+          "raw_text": "22 2",
+          "confidence": 0.458,
+          "bbox": [
+            2238,
+            1777,
+            2409,
+            1818
+          ]
+        },
+        {
+          "row": 37,
+          "column": "reason",
+          "value": "2 3 2",
+          "raw_text": "2 3 2",
+          "confidence": 0.112,
+          "bbox": [
+            505,
+            1818,
+            648,
+            1858
+          ]
+        },
+        {
+          "row": 38,
+          "column": "reason",
+          "value": "2 500",
+          "raw_text": "2 500",
+          "confidence": 0.363,
+          "bbox": [
+            505,
+            1858,
+            648,
+            1898
+          ]
+        },
+        {
+          "row": 39,
+          "column": "defect",
+          "value": "Line mark #",
+          "raw_text": "Line mark #",
+          "confidence": 0.48,
+          "bbox": [
+            158,
+            1898,
+            505,
+            1938
+          ]
+        },
+        {
+          "row": 39,
+          "column": "reason",
+          "value": "2 000",
+          "raw_text": "2 000",
+          "confidence": 0.362,
+          "bbox": [
+            505,
+            1898,
+            648,
+            1938
+          ]
+        },
+        {
+          "row": 39,
+          "column": "handle",
+          "value": 12,
+          "raw_text": "0 12",
+          "confidence": 0.402,
+          "bbox": [
+            1335,
+            1898,
+            1443,
+            1938
+          ]
+        },
+        {
+          "row": 39,
+          "column": "renickel",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.471,
+          "bbox": [
+            1562,
+            1898,
+            1688,
+            1938
+          ]
+        },
+        {
+          "row": 39,
+          "column": "b_grade",
+          "value": 12,
+          "raw_text": "0 12",
+          "confidence": 0.403,
+          "bbox": [
+            2024,
+            1898,
+            2142,
+            1938
+          ]
+        },
+        {
+          "row": 40,
+          "column": "engine_guard",
+          "value": 3,
+          "raw_text": "0 3",
+          "confidence": 0.435,
+          "bbox": [
+            880,
+            1938,
+            1068,
+            1979
+          ]
+        },
+        {
+          "row": 40,
+          "column": "ok",
+          "value": 5,
+          "raw_text": "0 5",
+          "confidence": 0.363,
+          "bbox": [
+            1928,
+            1938,
+            2024,
+            1979
+          ]
+        },
+        {
+          "row": 40,
+          "column": "total_final",
+          "value": 373,
+          "raw_text": "0373",
+          "confidence": 0.486,
+          "bbox": [
+            2238,
+            1938,
+            2409,
+            1979
+          ]
+        },
+        {
+          "row": 41,
+          "column": "defect",
+          "value": "Barline 2000",
+          "raw_text": "Barline 2000",
+          "confidence": 0.567,
+          "bbox": [
+            158,
+            1979,
+            505,
+            2020
+          ]
+        },
+        {
+          "row": 41,
+          "column": "reason",
+          "value": "PRESS SHOP",
+          "raw_text": "PRESS SHOP",
+          "confidence": 0.588,
+          "bbox": [
+            505,
+            1979,
+            648,
+            2020
+          ]
+        },
+        {
+          "row": 42,
+          "column": "defect",
+          "value": "WRINKLE W.",
+          "raw_text": "WRINKLE W.",
+          "confidence": 0.544,
+          "bbox": [
+            158,
+            2020,
+            505,
+            2061
+          ]
+        },
+        {
+          "row": 44,
+          "column": "cr_aad",
+          "value": 2,
+          "raw_text": "0 2",
+          "confidence": 0.459,
+          "bbox": [
+            771,
+            2101,
+            880,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "pedal_brake",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.24,
+          "bbox": [
+            1068,
+            2101,
+            1234,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "pgc",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.551,
+          "bbox": [
+            1234,
+            2101,
+            1335,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "renickel",
+          "value": 958,
+          "raw_text": "958",
+          "confidence": 0.561,
+          "bbox": [
+            1562,
+            2101,
+            1688,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "rechrome",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.29,
+          "bbox": [
+            1688,
+            2101,
+            1828,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "bufff",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.517,
+          "bbox": [
+            1828,
+            2101,
+            1928,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "scrap",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.467,
+          "bbox": [
+            2142,
+            2101,
+            2238,
+            2145
+          ]
+        },
+        {
+          "row": 44,
+          "column": "total_final",
+          "value": 139,
+          "raw_text": "139",
+          "confidence": 0.553,
+          "bbox": [
+            2238,
+            2101,
+            2409,
+            2145
+          ]
+        },
+        {
+          "row": 45,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.306,
+          "bbox": [
+            75,
+            2145,
+            158,
+            2190
+          ]
+        },
+        {
+          "row": 46,
+          "column": "sr_no",
+          "value": 13,
+          "raw_text": "13",
+          "confidence": 0.414,
+          "bbox": [
+            75,
+            2190,
+            158,
+            2230
+          ]
+        },
+        {
+          "row": 46,
+          "column": "defect",
+          "value": "tent # scratch .",
+          "raw_text": "tent # scratch .",
+          "confidence": 0.495,
+          "bbox": [
+            158,
+            2190,
+            505,
+            2230
+          ]
+        },
+        {
+          "row": 46,
+          "column": "reason",
+          "value": "pharrelling",
+          "raw_text": "pharrelling",
+          "confidence": 0.311,
+          "bbox": [
+            505,
+            2190,
+            648,
+            2230
+          ]
+        },
+        {
+          "row": 46,
+          "column": "cr_aad",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.325,
+          "bbox": [
+            771,
+            2190,
+            880,
+            2230
+          ]
+        },
+        {
+          "row": 46,
+          "column": "handle",
+          "value": 921,
+          "raw_text": "92 1",
+          "confidence": 0.456,
+          "bbox": [
+            1335,
+            2190,
+            1443,
+            2230
+          ]
+        },
+        {
+          "row": 46,
+          "column": "renickel",
+          "value": 1957,
+          "raw_text": "1957",
+          "confidence": 0.401,
+          "bbox": [
+            1562,
+            2190,
+            1688,
+            2230
+          ]
+        },
+        {
+          "row": 47,
+          "column": "sr_no",
+          "value": 31,
+          "raw_text": "3 1",
+          "confidence": 0.35,
+          "bbox": [
+            75,
+            2230,
+            158,
+            2270
+          ]
+        },
+        {
+          "row": 47,
+          "column": "defect",
+          "value": "buffinging success",
+          "raw_text": "buffinging success",
+          "confidence": 0.383,
+          "bbox": [
+            158,
+            2230,
+            505,
+            2270
+          ]
+        },
+        {
+          "row": 47,
+          "column": "pedal_brake",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.258,
+          "bbox": [
+            1068,
+            2230,
+            1234,
+            2270
+          ]
+        },
+        {
+          "row": 48,
+          "column": "sr_no",
+          "value": 38,
+          "raw_text": "3 8",
+          "confidence": 0.401,
+          "bbox": [
+            75,
+            2270,
+            158,
+            2312
+          ]
+        },
+        {
+          "row": 48,
+          "column": "cr_aael",
+          "value": 4,
+          "raw_text": "4",
+          "confidence": 0.57,
+          "bbox": [
+            648,
+            2270,
+            771,
+            2312
+          ]
+        },
+        {
+          "row": 49,
+          "column": "sr_no",
+          "value": 339,
+          "raw_text": "3 39",
+          "confidence": 0.289,
+          "bbox": [
+            75,
+            2312,
+            158,
+            2352
+          ]
+        },
+        {
+          "row": 52,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.468,
+          "bbox": [
+            75,
+            2430,
+            158,
+            2476
+          ]
+        },
+        {
+          "row": 52,
+          "column": "defect",
+          "value": "endefecty ,",
+          "raw_text": "endefecty ,",
+          "confidence": 0.554,
+          "bbox": [
+            158,
+            2430,
+            505,
+            2476
+          ]
+        },
+        {
+          "row": 53,
+          "column": "sr_no",
+          "value": 41,
+          "raw_text": "4 1",
+          "confidence": 0.394,
+          "bbox": [
+            75,
+            2476,
+            158,
+            2520
+          ]
+        },
+        {
+          "row": 55,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.254,
+          "bbox": [
+            75,
+            2568,
+            158,
+            2612
+          ]
+        },
+        {
+          "row": 55,
+          "column": "defect",
+          "value": "terless defect 90",
+          "raw_text": "terless defect 90",
+          "confidence": 0.587,
+          "bbox": [
+            158,
+            2568,
+            505,
+            2612
+          ]
+        },
+        {
+          "row": 56,
+          "column": "sr_no",
+          "value": 0,
+          "raw_text": "0 0 0 0 0 0 0 0 0 0 0 0 0",
+          "confidence": 0.283,
+          "bbox": [
+            75,
+            2612,
+            158,
+            2652
+          ]
+        },
+        {
+          "row": 56,
+          "column": "b_grade",
+          "value": 133,
+          "raw_text": "13 3",
+          "confidence": 0.274,
+          "bbox": [
+            2024,
+            2612,
+            2142,
+            2652
+          ]
+        },
+        {
+          "row": 59,
+          "column": "sr_no",
+          "value": 220,
+          "raw_text": "220",
+          "confidence": 0.573,
+          "bbox": [
+            75,
+            2742,
+            158,
+            2787
+          ]
+        },
+        {
+          "row": 60,
+          "column": "defect",
+          "value": "curry and",
+          "raw_text": "curry and",
+          "confidence": 0.353,
+          "bbox": [
+            158,
+            2787,
+            505,
+            2823
+          ]
+        },
+        {
+          "row": 61,
+          "column": "sr_no",
+          "value": 21,
+          "raw_text": "2 1",
+          "confidence": 0.253,
+          "bbox": [
+            75,
+            2823,
+            158,
+            2858
+          ]
+        },
+        {
+          "row": 61,
+          "column": "reason",
+          "value": "1 1",
+          "raw_text": "1 1",
+          "confidence": 0.515,
+          "bbox": [
+            505,
+            2823,
+            648,
+            2858
+          ]
+        },
+        {
+          "row": 62,
+          "column": "sr_no",
+          "value": 11,
+          "raw_text": "1 1",
+          "confidence": 0.307,
+          "bbox": [
+            75,
+            2858,
+            158,
+            2894
+          ]
+        },
+        {
+          "row": 62,
+          "column": "defect",
+          "value": "replant defending",
+          "raw_text": "replant defending",
+          "confidence": 0.449,
+          "bbox": [
+            158,
+            2858,
+            505,
+            2894
+          ]
+        },
+        {
+          "row": 62,
+          "column": "reason",
+          "value": "nla",
+          "raw_text": "nla",
+          "confidence": 0.596,
+          "bbox": [
+            505,
+            2858,
+            648,
+            2894
+          ]
+        },
+        {
+          "row": 63,
+          "column": "reason",
+          "value": "4th",
+          "raw_text": "4th",
+          "confidence": 0.411,
+          "bbox": [
+            505,
+            2894,
+            648,
+            2932
+          ]
+        },
+        {
+          "row": 65,
+          "column": "defect",
+          "value": "to the",
+          "raw_text": "to the",
+          "confidence": 0.306,
+          "bbox": [
+            158,
+            2986,
+            505,
+            3024
+          ]
+        },
+        {
+          "row": 66,
+          "column": "defect",
+          "value": "to provide",
+          "raw_text": "to provide",
+          "confidence": 0.291,
+          "bbox": [
+            158,
+            3024,
+            505,
+            3060
+          ]
+        },
+        {
+          "row": 67,
+          "column": "sr_no",
+          "value": 858858,
+          "raw_text": "858858",
+          "confidence": 0.23,
+          "bbox": [
+            75,
+            3060,
+            158,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "cr_aael",
+          "value": 133,
+          "raw_text": "1 3 3",
+          "confidence": 0.294,
+          "bbox": [
+            648,
+            3060,
+            771,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "cr_aad",
+          "value": 5008000,
+          "raw_text": "5008000",
+          "confidence": 0.351,
+          "bbox": [
+            771,
+            3060,
+            880,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "engine_guard",
+          "value": 12,
+          "raw_text": "1 2",
+          "confidence": 0.229,
+          "bbox": [
+            880,
+            3060,
+            1068,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "pedal_brake",
+          "value": 1000000000,
+          "raw_text": "1 000 000 000",
+          "confidence": 0.117,
+          "bbox": [
+            1068,
+            3060,
+            1234,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "pgc",
+          "value": 50100,
+          "raw_text": "0050100",
+          "confidence": 0.548,
+          "bbox": [
+            1234,
+            3060,
+            1335,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "handle",
+          "value": 101,
+          "raw_text": "10 1",
+          "confidence": 0.319,
+          "bbox": [
+            1335,
+            3060,
+            1443,
+            3098
+          ]
+        },
+        {
+          "row": 67,
+          "column": "total",
+          "value": 51,
+          "raw_text": "5 1",
+          "confidence": 0.311,
+          "bbox": [
+            1443,
+            3060,
+            1562,
+            3098
+          ]
+        },
+        {
+          "row": 68,
+          "column": "sr_no",
+          "value": 0,
+          "raw_text": "0 0",
+          "confidence": 0.237,
+          "bbox": [
+            75,
+            3098,
+            158,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "defect",
+          "value": "Arced by-000",
+          "raw_text": "Arced by-000",
+          "confidence": 0.534,
+          "bbox": [
+            158,
+            3098,
+            505,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "cr_aad",
+          "value": 1120,
+          "raw_text": "1  120",
+          "confidence": 0.184,
+          "bbox": [
+            771,
+            3098,
+            880,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "engine_guard",
+          "value": 66,
+          "raw_text": "66",
+          "confidence": 0.238,
+          "bbox": [
+            880,
+            3098,
+            1068,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "rechrome",
+          "value": 11999,
+          "raw_text": "11999",
+          "confidence": 0.494,
+          "bbox": [
+            1688,
+            3098,
+            1828,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "bufff",
+          "value": 53441,
+          "raw_text": "53441",
+          "confidence": 0.336,
+          "bbox": [
+            1828,
+            3098,
+            1928,
+            3136
+          ]
+        },
+        {
+          "row": 68,
+          "column": "b_grade",
+          "value": 1,
+          "raw_text": "0 1",
+          "confidence": 0.327,
+          "bbox": [
+            2024,
+            3098,
+            2142,
+            3136
+          ]
+        },
+        {
+          "row": 69,
+          "column": "sr_no",
+          "value": 1,
+          "raw_text": "1",
+          "confidence": 0.227,
+          "bbox": [
+            75,
+            3136,
+            158,
+            3171
+          ]
+        },
+        {
+          "row": 69,
+          "column": "bufff",
+          "value": 511,
+          "raw_text": "511",
+          "confidence": 0.508,
+          "bbox": [
+            1828,
+            3136,
+            1928,
+            3171
+          ]
+        },
+        {
+          "row": 69,
+          "column": "ok",
+          "value": 4,
+          "raw_text": "4",
+          "confidence": 0.576,
+          "bbox": [
+            1928,
+            3136,
+            2024,
+            3171
+          ]
+        },
+        {
+          "row": 69,
+          "column": "b_grade",
+          "value": 195556,
+          "raw_text": "1955 56",
+          "confidence": 0.197,
+          "bbox": [
+            2024,
+            3136,
+            2142,
+            3171
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 0,
+        "orientation_method": "osd",
+        "skew_deg": 0.999,
+        "grid_rows": 70,
+        "grid_cols": 17,
+        "cells_total": 1190,
+        "cells_empty": 287,
+        "cells_dash": 467,
+        "cells_ocr": 368,
+        "cells_low_confidence": 148,
+        "mean_ocr_confidence": 0.65,
+        "matched_header_text": "Lm DOC NO. MPPL/F/QAD/35/PC ab<4 LN MEENAKSHI POLYMERS PVT.LTD. HARIDWAR evan “RE ay” DAILY MISREPORT- V /a 1 ,M4. NWIAKT-A SS Datee: J°S—-0 4 -YOVC MONTH- Ul ~ 26\" SR.NO DEFECT REASON CRAAEL CRAAD EN",
+        "checks_passed": 18,
+        "checks_failed": 28,
+        "engine": "trocr",
+        "seconds": 931.9
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

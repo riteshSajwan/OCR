@@ -1,0 +1,515 @@
+{
+  "file": "SUPPLIER SEGREGATION REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "after",
+          "col_1": null,
+          "col_2": "0 1",
+          "col_3": "pplierse .",
+          "col_4": "gregation rei-",
+          "col_5": "' or",
+          "col_6": "# the month -",
+          "col_7": null,
+          "_confidence": 0.653
+        },
+        {
+          "_row": 2,
+          "col_0": "date",
+          "col_1": "spartname .",
+          "col_2": "supplier name .",
+          "col_3": "lorary .",
+          "col_4": "segregationity .",
+          "col_5": "okary .",
+          "col_6": "1 1 Problem description .",
+          "col_7": "2 remarks .",
+          "_confidence": 0.729
+        },
+        {
+          "_row": 3,
+          "col_0": "92,",
+          "col_1": "mature .",
+          "col_2": "expensive",
+          "col_3": ", 4000",
+          "col_4": "2,2nd.",
+          "col_5": "3hen .",
+          "col_6": "2 Results .",
+          "col_7": null,
+          "_confidence": 0.631
+        },
+        {
+          "_row": 4,
+          "col_0": null,
+          "col_1": "1.000",
+          "col_2": "stein .",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "a b. What's",
+          "col_7": null,
+          "_confidence": 0.81
+        },
+        {
+          "_row": 6,
+          "col_0": "oetols .",
+          "col_1": "spite 12.box .",
+          "col_2": "pommit",
+          "col_3": "again .",
+          "col_4": "spin .",
+          "col_5": "ilton .",
+          "col_6": "honcillin American state",
+          "col_7": null,
+          "_confidence": 0.669
+        },
+        {
+          "_row": 7,
+          "col_0": null,
+          "col_1": "p.20c.year",
+          "col_2": "\" Montgomery's",
+          "col_3": null,
+          "col_4": "0 0",
+          "col_5": null,
+          "col_6": "\" to this retirement , \" even it ?",
+          "col_7": null,
+          "_confidence": 0.72
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "to be the Spanish Government of the",
+          "col_7": null,
+          "_confidence": 0.888
+        },
+        {
+          "_row": 9,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "a member of the United States",
+          "col_7": null,
+          "_confidence": 0.906
+        },
+        {
+          "_row": 10,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "2 References",
+          "col_7": null,
+          "_confidence": 0.894
+        },
+        {
+          "_row": 11,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "2 2 2nd generation",
+          "col_7": null,
+          "_confidence": 0.88
+        },
+        {
+          "_row": 12,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "2 2 2 2 3",
+          "col_7": null,
+          "_confidence": 0.861
+        },
+        {
+          "_row": 19,
+          "col_0": "0 1",
+          "col_1": "en-incominga",
+          "col_2": null,
+          "col_3": "1 sign .",
+          "col_4": "purchase .",
+          "col_5": null,
+          "col_6": "2 1-000commonwealth",
+          "col_7": "sign-hood plant",
+          "_confidence": 0.701
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_0",
+          "value": "after",
+          "raw_text": "after",
+          "confidence": 0.493,
+          "bbox": [
+            194,
+            270,
+            334,
+            324
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.277,
+          "bbox": [
+            624,
+            270,
+            824,
+            324
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_5",
+          "value": "' or",
+          "raw_text": "' or",
+          "confidence": 0.531,
+          "bbox": [
+            1212,
+            270,
+            1362,
+            324
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": "# the month -",
+          "raw_text": "# the month -",
+          "confidence": 0.292,
+          "bbox": [
+            1362,
+            270,
+            1984,
+            324
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_6",
+          "value": "1 1 Problem description .",
+          "raw_text": "1 1 Problem description .",
+          "confidence": 0.573,
+          "bbox": [
+            1362,
+            324,
+            1984,
+            392
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_7",
+          "value": "2 remarks .",
+          "raw_text": "2 remarks .",
+          "confidence": 0.573,
+          "bbox": [
+            1984,
+            324,
+            2240,
+            392
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "92,",
+          "raw_text": "92,",
+          "confidence": 0.378,
+          "bbox": [
+            194,
+            392,
+            334,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_2",
+          "value": "expensive",
+          "raw_text": "expensive",
+          "confidence": 0.565,
+          "bbox": [
+            624,
+            392,
+            824,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_4",
+          "value": "2,2nd.",
+          "raw_text": "2,2nd.",
+          "confidence": 0.449,
+          "bbox": [
+            976,
+            392,
+            1212,
+            460
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_6",
+          "value": "2 Results .",
+          "raw_text": "2 Results .",
+          "confidence": 0.599,
+          "bbox": [
+            1362,
+            392,
+            1984,
+            460
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_1",
+          "value": "1.000",
+          "raw_text": "1.000",
+          "confidence": 0.526,
+          "bbox": [
+            334,
+            460,
+            624,
+            528
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_6",
+          "value": "a b. What's",
+          "raw_text": "a b. What's",
+          "confidence": 0.216,
+          "bbox": [
+            1362,
+            460,
+            1984,
+            528
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_0",
+          "value": "oetols .",
+          "raw_text": "oetols .",
+          "confidence": 0.481,
+          "bbox": [
+            194,
+            596,
+            334,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_4",
+          "value": "spin .",
+          "raw_text": "spin .",
+          "confidence": 0.538,
+          "bbox": [
+            976,
+            596,
+            1212,
+            666
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "honcillin American state",
+          "raw_text": "honcillin American state",
+          "confidence": 0.433,
+          "bbox": [
+            1362,
+            596,
+            1984,
+            666
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_1",
+          "value": "p.20c.year",
+          "raw_text": "p.20c.year",
+          "confidence": 0.428,
+          "bbox": [
+            334,
+            666,
+            624,
+            734
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_2",
+          "value": "\" Montgomery's",
+          "raw_text": "\" Montgomery's",
+          "confidence": 0.454,
+          "bbox": [
+            624,
+            666,
+            824,
+            734
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_4",
+          "value": "0 0",
+          "raw_text": "0 0",
+          "confidence": 0.523,
+          "bbox": [
+            976,
+            666,
+            1212,
+            734
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_6",
+          "value": "\" to this retirement , \" even it ?",
+          "raw_text": "\" to this retirement , \" even it ?",
+          "confidence": 0.476,
+          "bbox": [
+            1362,
+            666,
+            1984,
+            734
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_6",
+          "value": "to be the Spanish Government of the",
+          "raw_text": "to be the Spanish Government of the",
+          "confidence": 0.313,
+          "bbox": [
+            1362,
+            734,
+            1984,
+            804
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_6",
+          "value": "a member of the United States",
+          "raw_text": "a member of the United States",
+          "confidence": 0.458,
+          "bbox": [
+            1362,
+            804,
+            1984,
+            873
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_6",
+          "value": "2 References",
+          "raw_text": "2 References",
+          "confidence": 0.366,
+          "bbox": [
+            1362,
+            873,
+            1984,
+            942
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_6",
+          "value": "2 2 2nd generation",
+          "raw_text": "2 2 2nd generation",
+          "confidence": 0.254,
+          "bbox": [
+            1362,
+            942,
+            1984,
+            1010
+          ]
+        },
+        {
+          "row": 12,
+          "column": "col_6",
+          "value": "2 2 2 2 3",
+          "raw_text": "2 2 2 2 3",
+          "confidence": 0.097,
+          "bbox": [
+            1362,
+            1010,
+            1984,
+            1078
+          ]
+        },
+        {
+          "row": 19,
+          "column": "col_0",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.355,
+          "bbox": [
+            194,
+            1486,
+            334,
+            1555
+          ]
+        },
+        {
+          "row": 19,
+          "column": "col_6",
+          "value": "2 1-000commonwealth",
+          "raw_text": "2 1-000commonwealth",
+          "confidence": 0.188,
+          "bbox": [
+            1362,
+            1486,
+            1984,
+            1555
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 0,
+        "orientation_method": "osd",
+        "skew_deg": 0.0,
+        "grid_rows": 20,
+        "grid_cols": 8,
+        "cells_total": 160,
+        "cells_empty": 105,
+        "cells_dash": 1,
+        "cells_ocr": 46,
+        "cells_low_confidence": 26,
+        "mean_ocr_confidence": 0.571,
+        "matched_header_text": "te) @ <i> MEENAKSHI POLYMERS PRIVATE LIMITED(HARIDWAR) Ww SUPPLIER SEGREGATION REPORT MONTH- DATE PART NAME SUPPLIER NAME LOT QTY SEGREGATION QTY OK QTY PROBLEM DESCRIPTION REMARKS AIS MAMUNTE Mistete",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 107.5
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

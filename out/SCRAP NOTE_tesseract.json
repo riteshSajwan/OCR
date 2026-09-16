@@ -1,0 +1,374 @@
+{
+  "file": "SCRAP NOTE.pdf",
+  "pages": [
+    {
+      "form_id": "scrap_note",
+      "rows": [
+        {
+          "_row": 4,
+          "s_no": 1,
+          "item_code": "WLD 602503",
+          "item_name": "Cawier Wan",
+          "unit": "Nos",
+          "rejection_qty": 61,
+          "vendor_name": "IW Hous 7",
+          "reason_remarks": "Feynetyaficn, Cut Part",
+          "_confidence": 0.54
+        },
+        {
+          "_row": 5,
+          "s_no": 2,
+          "item_code": "WIL Corse",
+          "item_name": "(Ana | ui father kK'",
+          "unit": null,
+          "rejection_qty": null,
+          "vendor_name": "ly",
+          "reason_remarks": "\\1",
+          "_confidence": 0.374
+        },
+        {
+          "_row": 6,
+          "s_no": 3,
+          "item_code": "W/L 0) (e804",
+          "item_name": "Core, Onan AV",
+          "unit": "[",
+          "rejection_qty": null,
+          "vendor_name": "ly",
+          "reason_remarks": "ly",
+          "_confidence": 0.401
+        },
+        {
+          "_row": 7,
+          "s_no": 4,
+          "item_code": "Wey) ors]",
+          "item_name": "Puc Acu",
+          "unit": "Wo",
+          "rejection_qty": null,
+          "vendor_name": "IN yay @",
+          "reason_remarks": "fenetraf |, Cut fart",
+          "_confidence": 0.451
+        },
+        {
+          "_row": 8,
+          "s_no": null,
+          "item_code": "AIL 0 6025739",
+          "item_name": "Codd Rasen BAR;",
+          "unit": ")\\",
+          "rejection_qty": 6,
+          "vendor_name": "jr",
+          "reason_remarks": "yy",
+          "_confidence": 0.244
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 4,
+          "column": "item_name",
+          "value": "Cawier Wan",
+          "raw_text": "Cawier Wan",
+          "confidence": 0.16,
+          "bbox": [
+            536,
+            546,
+            1056,
+            722
+          ]
+        },
+        {
+          "row": 4,
+          "column": "rejection_qty",
+          "value": 61,
+          "raw_text": "6 1",
+          "confidence": 0.21,
+          "bbox": [
+            1216,
+            546,
+            1471,
+            722
+          ]
+        },
+        {
+          "row": 4,
+          "column": "vendor_name",
+          "value": "IW Hous 7",
+          "raw_text": "IW Hous 7",
+          "confidence": 0.563,
+          "bbox": [
+            1471,
+            546,
+            1882,
+            722
+          ]
+        },
+        {
+          "row": 4,
+          "column": "reason_remarks",
+          "value": "Feynetyaficn, Cut Part",
+          "raw_text": "Feynetyaficn, Cut Part",
+          "confidence": 0.48,
+          "bbox": [
+            1882,
+            546,
+            2388,
+            722
+          ]
+        },
+        {
+          "row": 5,
+          "column": "item_code",
+          "value": "WIL Corse",
+          "raw_text": "WIL Corse",
+          "confidence": 0.145,
+          "bbox": [
+            188,
+            722,
+            536,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "item_name",
+          "value": "(Ana | ui father kK'",
+          "raw_text": "(Ana | ui father kK'",
+          "confidence": 0.434,
+          "bbox": [
+            536,
+            722,
+            1056,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "vendor_name",
+          "value": "ly",
+          "raw_text": "ly",
+          "confidence": 0.43,
+          "bbox": [
+            1471,
+            722,
+            1882,
+            899
+          ]
+        },
+        {
+          "row": 6,
+          "column": "item_code",
+          "value": "W/L 0) (e804",
+          "raw_text": "W/L 0) (e804",
+          "confidence": 0.277,
+          "bbox": [
+            188,
+            899,
+            536,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "item_name",
+          "value": "Core, Onan AV",
+          "raw_text": "Core, Onan AV",
+          "confidence": 0.29,
+          "bbox": [
+            536,
+            899,
+            1056,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "unit",
+          "value": "[",
+          "raw_text": "[",
+          "confidence": 0.19,
+          "bbox": [
+            1056,
+            899,
+            1216,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "reason_remarks",
+          "value": "ly",
+          "raw_text": "ly",
+          "confidence": 0.44,
+          "bbox": [
+            1882,
+            899,
+            2388,
+            1076
+          ]
+        },
+        {
+          "row": 7,
+          "column": "item_code",
+          "value": "Wey) ors]",
+          "raw_text": "Wey) ors]",
+          "confidence": 0.315,
+          "bbox": [
+            188,
+            1076,
+            536,
+            1254
+          ]
+        },
+        {
+          "row": 7,
+          "column": "unit",
+          "value": "Wo",
+          "raw_text": "Wo",
+          "confidence": 0.3,
+          "bbox": [
+            1056,
+            1076,
+            1216,
+            1254
+          ]
+        },
+        {
+          "row": 7,
+          "column": "vendor_name",
+          "value": "IN yay @",
+          "raw_text": "IN yay @",
+          "confidence": 0.543,
+          "bbox": [
+            1471,
+            1076,
+            1882,
+            1254
+          ]
+        },
+        {
+          "row": 7,
+          "column": "reason_remarks",
+          "value": "fenetraf |, Cut fart",
+          "raw_text": "fenetraf |, Cut fart",
+          "confidence": 0.375,
+          "bbox": [
+            1882,
+            1076,
+            2388,
+            1254
+          ]
+        },
+        {
+          "row": 8,
+          "column": "item_code",
+          "value": "AIL 0 6025739",
+          "raw_text": "AIL 0 6025739",
+          "confidence": 0.46,
+          "bbox": [
+            188,
+            1254,
+            536,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "item_name",
+          "value": "Codd Rasen BAR;",
+          "raw_text": "Codd Rasen BAR;",
+          "confidence": 0.22,
+          "bbox": [
+            536,
+            1254,
+            1056,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "unit",
+          "value": ")\\",
+          "raw_text": ")\\",
+          "confidence": 0.0,
+          "bbox": [
+            1056,
+            1254,
+            1216,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "rejection_qty",
+          "value": 6,
+          "raw_text": "6",
+          "confidence": 0.0,
+          "bbox": [
+            1216,
+            1254,
+            1471,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "vendor_name",
+          "value": "jr",
+          "raw_text": "jr",
+          "confidence": 0.55,
+          "bbox": [
+            1471,
+            1254,
+            1882,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "reason_remarks",
+          "value": "yy",
+          "raw_text": "yy",
+          "confidence": 0.48,
+          "bbox": [
+            1882,
+            1254,
+            2388,
+            1433
+          ]
+        },
+        {
+          "row": 13,
+          "column": "s_no",
+          "value": 324,
+          "raw_text": "3 24",
+          "confidence": 0.198,
+          "bbox": [
+            62,
+            2146,
+            188,
+            2324
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 180,
+        "orientation_method": "osd",
+        "skew_deg": -0.719,
+        "grid_rows": 19,
+        "grid_cols": 7,
+        "cells_total": 133,
+        "cells_empty": 54,
+        "cells_dash": 0,
+        "cells_ocr": 44,
+        "cells_low_confidence": 22,
+        "mean_ocr_confidence": 0.477,
+        "matched_header_text": "& MEENAKSHI POLYMERS (P) LTD HARIDWAR ripened Hp Scrap Note REV. DATE:-00 bd Month- (Tuj¥-9Z. ( tor 94:-\\ol9o,QR6-DATE:-01-04-2017 S.No. ITEM CODE ITEM NAME UNIT vaare VENDOR. NAME REASON / REMARKS r ",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 14.8
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

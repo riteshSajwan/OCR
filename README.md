@@ -8,10 +8,12 @@ See [PLAN.md](PLAN.md) for the architecture and the reasoning behind it.
 
 ## Status
 
-**Stage 1 of 3 complete** — Tesseract baseline, full pipeline running end to end on
-all 13 sample PDFs. PaddleOCR PP-OCRv5 and TrOCR are the next two engines.
+Two engines working end to end: **Tesseract** (fast baseline, reads the printed
+structure) and **TrOCR** (handwriting). PaddleOCR PP-OCRv5 is next.
 
 ## Setup
+
+### Core (required)
 
 ```powershell
 py -m venv .venv
@@ -22,19 +24,121 @@ winget install -e --id UB-Mannheim.TesseractOCR
 `pytesseract` is only a wrapper — the Tesseract binary is a separate install.
 `config.py` finds it on PATH or in the standard Windows install locations.
 
-## Usage
+### TrOCR engine (optional)
+
+Only needed for `--engine trocr`. Install torch first and **name the build
+explicitly**, or pip resolves to the ~2.5GB CUDA wheel by default:
 
 ```powershell
-$env:PYTHONPATH="src"
-.venv\Scripts\python.exe -m formocr run "Minakshi Polymers"          # folder or single PDF
-.venv\Scripts\python.exe -m formocr run "Minakshi Polymers" --debug  # + grid overlays
+# CPU-only, ~200MB
+.venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+# ...or CUDA, ~2.5GB
+.venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cu124
+
+.venv\Scripts\python.exe -m pip install -r requirements-trocr.txt
 ```
-single pdf -> " python -m formocr run "Minakshi Polymers\riteshTest.pdf" --debug "
 
+`transformers` is pinned below 5.x — `microsoft/trocr-base-handwritten` predates the
+fast-tokenizer format, and v5 fails to load it with `Couldn't instantiate the backend
+tokenizer`. Installing `sentencepiece`/`tiktoken` as that error suggests does not help.
 
-Output lands in `out/<name>.json`; `--debug` writes grid overlays to `out/debug/`.
+The first TrOCR run downloads ~1.3GB. It is cached afterwards, so engine startup
+drops from ~254s to ~6s.
+
+## Running
+
+Set this once per terminal:
+
+```powershell
+cd E:\OCR
+$env:PYTHONPATH="src"
+```
+
+### Tesseract — fast baseline
+
+```powershell
+.venv\Scripts\python.exe -m formocr run "Minakshi Polymers\SCRAP NOTE.pdf"
+```
+
+Default engine, so no flag needed.
+
+### TrOCR — handwriting
+
+```powershell
+.venv\Scripts\python.exe -m formocr run "Minakshi Polymers\SCRAP NOTE.pdf" --engine trocr
+```
+
+### Comparing the two
+
+Output filenames carry the engine name, so both runs can share one directory and
+sit side by side rather than overwriting each other:
+
+```powershell
+.venv\Scripts\python.exe -m formocr run "Minakshi Polymers\SCRAP NOTE.pdf"
+.venv\Scripts\python.exe -m formocr run "Minakshi Polymers\SCRAP NOTE.pdf" --engine trocr
+
+python.exe -m formocr run "Minakshi Polymers" --engine trocr --debug
+
+```
+
+```
+out\SCRAP NOTE_tesseract.json
+out\SCRAP NOTE_trocr.json
+```
+
+### Other arguments
+
+| | |
+|---|---|
+| `<path>` | a single PDF, or a directory (searched recursively) |
+| `--engine tesseract\|trocr` | recognition model; default `tesseract` |
+| `--out DIR` | output directory; default `out/` |
+| `--debug` | also write grid overlays to `<out>/debug/` |
+
+Measured on `SCRAP NOTE.pdf` (19×7 grid, 5 filled rows):
+
+| | Tesseract | TrOCR |
+|---|---|---|
+| Time | 11.4s | 90.8s |
+| Mean confidence | 0.477 | 0.579 |
+| Flagged for review | 22 | 23 |
+
+Structure, rows and rotation come out identical — the engine only affects
+recognition, not geometry. TrOCR is ~8× slower here because it is running on CPU.
+
+Output lands in `<out>/<name>_<engine>.json`; `--debug` writes grid overlays to
+`<out>/debug/`.
 **Look at the overlays before trusting any number** — a misaligned lattice produces
 well-formed, confident, completely wrong JSON.
+
+## Notebook — stage-by-stage walkthrough
+
+[`notebooks/formocr_pipeline.ipynb`](notebooks/formocr_pipeline.ipynb) runs the same
+pipeline one stage at a time, showing the intermediate image at each step: the raw
+scan, the deskewed page, both line masks, the detected lattice, the ink mask, the
+de-lined greyscale, sample cell crops, and the review-queue crops beside what each
+engine read. It ends with a Tesseract-vs-TrOCR comparison on the same cells.
+
+It **imports `src/formocr`** rather than reimplementing anything, so it cannot drift
+from the real pipeline. Use it to understand or debug a stage; use the CLI to process
+files.
+
+```powershell
+.venv\Scripts\python.exe -m pip install jupyter matplotlib
+.venv\Scripts\python.exe -m jupyter lab notebooks/formocr_pipeline.ipynb
+```
+
+It is committed **with outputs**, so it reads without being run. Clear them with
+`jupyter nbconvert --clear-output --inplace notebooks/formocr_pipeline.ipynb`.
+
+**On Colab** it detects the environment, installs the Tesseract binary via apt, takes
+the package as a one-time zip upload (`src/` + `templates/` is all it needs), and then
+**prompts you to upload the PDF** — no project checkout required. Mount Drive instead
+if you would rather not re-upload each session; `/content/drive/MyDrive/OCR` is one of
+the searched paths.
+
+Colab is worth it for **fine-tuning** (a free T4's 16GB beats 4GB of local VRAM); for
+everything else local is faster and skips the upload.
 
 ## How it works
 
@@ -100,21 +204,65 @@ Mean confidence on handwritten cells is 0.34–0.55. This is the documented floo
 bug to fix — Tesseract has no handwriting model. It earns its place here by reading the
 printed structure, supplying OSD, and proving the pipeline end to end.
 
+### TrOCR head-to-head
+
+Ten cells on SCRAP NOTE with hand-typed truth. `rejection_qty` is a numeric column,
+so TrOCR runs with constrained decoding (see below):
+
+| Truth | Tesseract | conf | TrOCR | conf |
+|---|---|---|---|---|
+| `07` | `6 1` | 0.42 | `0 04` | 0.74 |
+| `06` | *(empty)* | 0.00 | `0 06` | 0.74 |
+| `04` | *(empty)* | 0.00 | `0 94` | 0.61 |
+| `05` | *(empty)* | 0.00 | `0 052` | 0.57 |
+| `04` | `6` | 0.00 | `0 04` | 0.74 |
+| `WLD 602503` | `WLD 602503` | 0.70 | `who 602303` | 0.64 |
+| `WLD 602500` | `WIL Corse` | 0.14 | `WLDS GO 2500` | 0.47 |
+| `WLD 602509` | `W/L 0) (e804` | 0.28 | `WLD 602509 .` | 0.78 |
+| `WLD 602514` | `Wey) ors]` | 0.32 | `WLN 602514` | 0.89 |
+| `WLD 602539` | `AIL 0 6025739` | 0.46 | `WH D.059` | 0.45 |
+
+On the numeric column Tesseract gets **0/5**; TrOCR gets **2/5** after coercion. On item
+codes both land around 1–2/5, but TrOCR's misses are far closer — `WLN 602514` is one
+character out, against Tesseract's `Wey) ors]` — and its confidence tracks correctness
+(0.89 on the near-miss, 0.45 on its worst).
+
+TrOCR is clearly better on handwriting and better calibrated. It is still not accurate
+enough to trust unreviewed, which is what fine-tuning is for.
+
+**Constrained decoding.** Tesseract gets a charset whitelist for free via
+`tessedit_char_whitelist`. TrOCR is a seq2seq language model with no such switch, so
+`_AllowedTokensProcessor` masks the decoder at the logits instead — **1698 of 50265
+tokens** survive on a numeric column (digits, space, control tokens). The model
+therefore cannot spell a letter into a numeric cell at all, rather than emitting one
+and having `_coerce` strip it and halve the confidence.
+
+**Caveat on every number here:** n=10, typed by eye. Confidence is what an engine
+reports about itself, not accuracy. See *Next*.
+
 ## Next
 
-The engine interface (`engines/base.py`) is deliberately narrow so the next two drop in
-without touching the pipeline:
+The engine interface (`engines/base.py`) is deliberately narrow, which is how TrOCR
+dropped in without touching the pipeline. Still to do:
 
-1. **PaddleOCR PP-OCRv5** on printed cells — should lift the header/label columns to near 1.0.
+1. **A ground-truth set.** Every number quoted above is an engine's *self-reported
+   confidence*, not accuracy — and an engine can be confidently wrong. Comparing
+   engines on confidence is close to meaningless, since they calibrate differently.
+   A few hundred hand-typed cells plus a scoring script is the cheapest way to make
+   any of these comparisons real, and it must come before choosing an engine.
+2. **PaddleOCR PP-OCRv5** on printed cells — should lift the header/label columns to near 1.0.
    Check Python 3.13 wheel availability first; fall back to a 3.11 venv if missing.
-2. **TrOCR** (`microsoft/trocr-base-handwritten`) on handwritten cells — the actual fix
-   for the table above. ~1.3 GB, comfortable on the 4 GB GTX 1650 Ti.
 3. **Review UI + fine-tune.** Corrections become labelled pairs; fine-tuning TrOCR on this
-   specific handwriting is where accuracy stops being mediocre.
+   specific handwriting is where accuracy stops being mediocre. Stock
+   `trocr-base-handwritten` is trained on IAM — English cursive prose, not Indian
+   factory shorthand and part codes.
 
 Known gaps: ditto-mark detection currently matches on OCR text and misses (`ly`, `jr`),
 so it should become geometric — two short near-vertical strokes. `DAILY MIS REPORT
-PCOATING` picks the wrong 90°/270° orientation and needs a template.
+PCOATING` picks the wrong 90°/270° orientation and needs a template. Constrained
+numeric decoding in TrOCR prefixes a spurious `0` (the constraint forcing a digit at
+position one); harmless for integer columns since `int()` drops it, but it would
+matter if the raw string were ever needed.
 
 ## Layout
 

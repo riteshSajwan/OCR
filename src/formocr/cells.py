@@ -75,14 +75,21 @@ def classify(mask_crop: np.ndarray) -> CellContent:
     return CellContent(CellKind.CONTENT, ink_ratio, len(keep))
 
 
-def prepare_for_ocr(crop: np.ndarray, scale: int = 3, pad: int = 12) -> np.ndarray:
-    """Upscale and pad a cell crop to the size OCR engines expect.
+def prepare_for_ocr(crop: np.ndarray, scale: float = 1.0, pad: int = 12) -> np.ndarray:
+    """Grayscale, optionally upscale, and pad a cell crop for recognition.
 
-    Tesseract in particular wants an x-height around 30px and a quiet margin;
-    handing it a raw 40px-tall cell crop measurably degrades recognition.
+    The padding is universal - every engine reads better with a quiet margin than
+    with glyphs flush against the crop edge. The upscale is not, so `scale`
+    defaults to a no-op and each engine passes what it actually needs:
+
+    - Tesseract wants roughly a 30px x-height and measurably degrades on a raw
+      40px-tall cell crop, so it asks for 3x (see its OCR_SCALE).
+    - TrOCR's processor resizes every input to 384x384 itself, so upscaling here
+      first would just resample the image twice and add interpolation blur.
     """
     if crop.size == 0:
         return crop
     gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY) if crop.ndim == 3 else crop
-    big = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
-    return cv2.copyMakeBorder(big, pad, pad, pad, pad, cv2.BORDER_CONSTANT, value=255)
+    if scale != 1.0:
+        gray = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC)
+    return cv2.copyMakeBorder(gray, pad, pad, pad, pad, cv2.BORDER_CONSTANT, value=255)

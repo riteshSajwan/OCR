@@ -1,0 +1,754 @@
+{
+  "file": "SUPPLIER LOT REJECTION SUMMARY.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "signier .",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": "# supplier lot rejection summary ... Mr.",
+          "col_8": "continuous .",
+          "col_9": "0 1",
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.846
+        },
+        {
+          "_row": 2,
+          "col_0": "date",
+          "col_1": "suppartname .",
+          "col_2": "supplier name .",
+          "col_3": "dry .",
+          "col_4": "rey",
+          "col_5": "rey",
+          "col_6": "cork",
+          "col_7": "1961 1972 Problem description with the",
+          "col_8": "management",
+          "col_9": "refairs .",
+          "col_10": "sparvis .",
+          "col_11": "remarks .",
+          "_confidence": 0.634
+        },
+        {
+          "_row": 3,
+          "col_0": "xedo",
+          "col_1": "rippenology",
+          "col_2": "urrifism .",
+          "col_3": "gasor .",
+          "col_4": "index .",
+          "col_5": "sp",
+          "col_6": "exoco .",
+          "col_7": "a. O-endricia Childul .",
+          "col_8": "utter-after .",
+          "col_9": "water",
+          "col_10": "warn",
+          "col_11": null,
+          "_confidence": 0.539
+        },
+        {
+          "_row": 4,
+          "col_0": null,
+          "col_1": "Print export",
+          "col_2": "0 1",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": "a b. What you should be",
+          "col_8": "petenary .",
+          "col_9": "0",
+          "col_10": "0",
+          "col_11": null,
+          "_confidence": 0.701
+        },
+        {
+          "_row": 6,
+          "col_0": "316126",
+          "col_1": "mitigation",
+          "col_2": "assure",
+          "col_3": "400",
+          "col_4": "10",
+          "col_5": "2yo",
+          "col_6": "zaer",
+          "col_7": "\" Aberdays Over",
+          "col_8": "ulvecluded",
+          "col_9": "439",
+          "col_10": "ago",
+          "col_11": null,
+          "_confidence": 0.523
+        },
+        {
+          "_row": 7,
+          "col_0": null,
+          "col_1": "eloism .",
+          "col_2": "wireton .",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "lecky .",
+          "col_9": "mids .",
+          "col_10": "0 1",
+          "col_11": null,
+          "_confidence": 0.819
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "spy",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.913
+        },
+        {
+          "_row": 9,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "1957",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.912
+        },
+        {
+          "_row": 10,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "spy",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.908
+        },
+        {
+          "_row": 11,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "0 1 .",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.936
+        },
+        {
+          "_row": 12,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "1957 58",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.926
+        },
+        {
+          "_row": 13,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": "to present",
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.913
+        },
+        {
+          "_row": 15,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": null,
+          "col_9": null,
+          "col_10": "0 1",
+          "col_11": null,
+          "_confidence": 0.93
+        },
+        {
+          "_row": 29,
+          "col_0": null,
+          "col_1": "1955 56",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": null,
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.929
+        },
+        {
+          "_row": 30,
+          "col_0": null,
+          "col_1": "0 1",
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": null,
+          "col_9": null,
+          "col_10": null,
+          "col_11": null,
+          "_confidence": 0.918
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_8",
+          "value": "continuous .",
+          "raw_text": "continuous .",
+          "confidence": 0.521,
+          "bbox": [
+            1651,
+            263,
+            1886,
+            310
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_9",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.468,
+          "bbox": [
+            1886,
+            263,
+            2020,
+            310
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_4",
+          "value": "rey",
+          "raw_text": "rey",
+          "confidence": 0.589,
+          "bbox": [
+            770,
+            310,
+            837,
+            356
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_5",
+          "value": "rey",
+          "raw_text": "rey",
+          "confidence": 0.56,
+          "bbox": [
+            837,
+            310,
+            905,
+            356
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_6",
+          "value": "cork",
+          "raw_text": "cork",
+          "confidence": 0.468,
+          "bbox": [
+            905,
+            310,
+            972,
+            356
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_7",
+          "value": "1961 1972 Problem description with the",
+          "raw_text": "1961 1972 Problem description with the",
+          "confidence": 0.267,
+          "bbox": [
+            972,
+            310,
+            1651,
+            356
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_8",
+          "value": "management",
+          "raw_text": "management",
+          "confidence": 0.245,
+          "bbox": [
+            1651,
+            310,
+            1886,
+            356
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_9",
+          "value": "refairs .",
+          "raw_text": "refairs .",
+          "confidence": 0.593,
+          "bbox": [
+            1886,
+            310,
+            2020,
+            356
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "xedo",
+          "raw_text": "xedo",
+          "confidence": 0.422,
+          "bbox": [
+            200,
+            356,
+            307,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_1",
+          "value": "rippenology",
+          "raw_text": "rippenology",
+          "confidence": 0.383,
+          "bbox": [
+            307,
+            356,
+            525,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_3",
+          "value": "gasor .",
+          "raw_text": "gasor .",
+          "confidence": 0.547,
+          "bbox": [
+            702,
+            356,
+            770,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_5",
+          "value": "sp",
+          "raw_text": "sp",
+          "confidence": 0.475,
+          "bbox": [
+            837,
+            356,
+            905,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_6",
+          "value": "exoco .",
+          "raw_text": "exoco .",
+          "confidence": 0.587,
+          "bbox": [
+            905,
+            356,
+            972,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_7",
+          "value": "a. O-endricia Childul .",
+          "raw_text": "a. O-endricia Childul .",
+          "confidence": 0.351,
+          "bbox": [
+            972,
+            356,
+            1651,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_9",
+          "value": "water",
+          "raw_text": "water",
+          "confidence": 0.316,
+          "bbox": [
+            1886,
+            356,
+            2020,
+            418
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_10",
+          "value": "warn",
+          "raw_text": "warn",
+          "confidence": 0.398,
+          "bbox": [
+            2020,
+            356,
+            2108,
+            418
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_2",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.351,
+          "bbox": [
+            525,
+            418,
+            702,
+            484
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_7",
+          "value": "a b. What you should be",
+          "raw_text": "a b. What you should be",
+          "confidence": 0.317,
+          "bbox": [
+            972,
+            418,
+            1651,
+            484
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_9",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.212,
+          "bbox": [
+            1886,
+            418,
+            2020,
+            484
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_10",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.283,
+          "bbox": [
+            2020,
+            418,
+            2108,
+            484
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_1",
+          "value": "mitigation",
+          "raw_text": "mitigation",
+          "confidence": 0.32,
+          "bbox": [
+            307,
+            547,
+            525,
+            610
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_2",
+          "value": "assure",
+          "raw_text": "assure",
+          "confidence": 0.593,
+          "bbox": [
+            525,
+            547,
+            702,
+            610
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_3",
+          "value": "400",
+          "raw_text": "400",
+          "confidence": 0.351,
+          "bbox": [
+            702,
+            547,
+            770,
+            610
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "zaer",
+          "raw_text": "zaer",
+          "confidence": 0.477,
+          "bbox": [
+            905,
+            547,
+            972,
+            610
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_7",
+          "value": "\" Aberdays Over",
+          "raw_text": "\" Aberdays Over",
+          "confidence": 0.275,
+          "bbox": [
+            972,
+            547,
+            1651,
+            610
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_8",
+          "value": "ulvecluded",
+          "raw_text": "ulvecluded",
+          "confidence": 0.187,
+          "bbox": [
+            1651,
+            547,
+            1886,
+            610
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_9",
+          "value": "mids .",
+          "raw_text": "mids .",
+          "confidence": 0.343,
+          "bbox": [
+            1886,
+            610,
+            2020,
+            674
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_10",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.412,
+          "bbox": [
+            2020,
+            610,
+            2108,
+            674
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_8",
+          "value": "spy",
+          "raw_text": "spy",
+          "confidence": 0.281,
+          "bbox": [
+            1651,
+            674,
+            1886,
+            738
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_8",
+          "value": "1957",
+          "raw_text": "1957",
+          "confidence": 0.274,
+          "bbox": [
+            1651,
+            738,
+            1886,
+            800
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_8",
+          "value": "spy",
+          "raw_text": "spy",
+          "confidence": 0.231,
+          "bbox": [
+            1651,
+            800,
+            1886,
+            864
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_8",
+          "value": "0 1 .",
+          "raw_text": "0 1 .",
+          "confidence": 0.566,
+          "bbox": [
+            1651,
+            864,
+            1886,
+            928
+          ]
+        },
+        {
+          "row": 12,
+          "column": "col_8",
+          "value": "1957 58",
+          "raw_text": "1957 58",
+          "confidence": 0.437,
+          "bbox": [
+            1651,
+            928,
+            1886,
+            992
+          ]
+        },
+        {
+          "row": 13,
+          "column": "col_8",
+          "value": "to present",
+          "raw_text": "to present",
+          "confidence": 0.288,
+          "bbox": [
+            1651,
+            992,
+            1886,
+            1055
+          ]
+        },
+        {
+          "row": 15,
+          "column": "col_10",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.486,
+          "bbox": [
+            2020,
+            1120,
+            2108,
+            1184
+          ]
+        },
+        {
+          "row": 29,
+          "column": "col_1",
+          "value": "1955 56",
+          "raw_text": "1955 56",
+          "confidence": 0.475,
+          "bbox": [
+            307,
+            2004,
+            525,
+            2070
+          ]
+        },
+        {
+          "row": 30,
+          "column": "col_1",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.347,
+          "bbox": [
+            307,
+            2070,
+            525,
+            2132
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 0,
+        "orientation_method": "osd",
+        "skew_deg": 0.0,
+        "grid_rows": 33,
+        "grid_cols": 12,
+        "cells_total": 396,
+        "cells_empty": 323,
+        "cells_dash": 3,
+        "cells_ocr": 58,
+        "cells_low_confidence": 37,
+        "mean_ocr_confidence": 0.514,
+        "matched_header_text": "O) o>. MEENAKSHI POLYMERS PRIVATE LIMITED(HARIDWAR) <p> v SUPPLIER LOT REJECTION SUMMARY Manrita— JU. DATE PART NAME SUPPLIERNAME LOT REW REY ony PROBLEM DESCRIPTION : ACTION gE RETURN CAPA “REMARKS r",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 102.3
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

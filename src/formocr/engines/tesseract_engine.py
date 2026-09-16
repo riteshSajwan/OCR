@@ -15,9 +15,16 @@ from ..cells import prepare_for_ocr
 from ..config import configure_tesseract
 from .base import Block, Reading
 
-# PSM 7 = one text line; PSM 6 = a uniform block. Cells are single lines.
+# PSM 6 = assume a single uniform block of text. PSM 7 (a single text line) is the
+# more obvious fit for a table cell, but cells here are not reliably one line - a
+# remarks cell wraps ("Penetration / cut part"), and PSM 7 forces such a cell onto
+# one baseline and garbles it.
 CELL_PSM = 6
 DIGITS = "0123456789"
+
+# Cell crops are small; Tesseract wants roughly a 30px x-height plus a quiet
+# margin, so the crop is upscaled before recognition.
+OCR_SCALE = 3
 
 
 class TesseractEngine:
@@ -39,7 +46,7 @@ class TesseractEngine:
     def read_cell(self, crop: np.ndarray, *, numeric: bool = False) -> Reading:
         if crop.size == 0:
             return Reading("", 0.0, self.name)
-        prepared = prepare_for_ocr(crop)
+        prepared = prepare_for_ocr(crop, scale=OCR_SCALE)
         try:
             data = pytesseract.image_to_data(
                 prepared, lang=self.lang,

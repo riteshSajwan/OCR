@@ -1,0 +1,22 @@
+# Dependencies for the TrOCR handwriting engine (--engine trocr).
+# Kept separate from requirements.txt because they are large and optional.
+#
+# Install torch FIRST and name the build explicitly, otherwise pip resolves to the
+# ~2.5GB CUDA wheel by default:
+#
+#   CPU-only (~200MB):
+#     .venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   CUDA:
+#     .venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cu124
+#
+# Then:
+#   .venv\Scripts\python.exe -m pip install -r requirements-trocr.txt
+
+torch
+
+# Pinned below 5.x deliberately. microsoft/trocr-base-handwritten predates the
+# fast-tokenizer format and ships only vocab.json + merges.txt; transformers 5.x
+# dropped the slow-tokenizer conversion path and fails to load it with
+# "Couldn't instantiate the backend tokenizer" - and installing sentencepiece or
+# tiktoken, as that error suggests, does not help. 4.57 loads it without complaint.
+transformers<5

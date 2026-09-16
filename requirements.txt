@@ -4,3 +4,6 @@ numpy
 pillow
 pytesseract
 pyyaml
+
+# The TrOCR engine's dependencies are in requirements-trocr.txt - they are large
+# and only needed for `--engine trocr`, so they are kept out of the default install.

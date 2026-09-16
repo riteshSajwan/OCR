@@ -67,7 +67,9 @@ def run(args: argparse.Namespace) -> int:
             print(f"   FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
             continue
 
-        target = out_dir / f"{pdf.stem}.json"
+        # Engine name in the filename so runs of different engines over the same
+        # PDF sit side by side instead of silently overwriting each other.
+        target = out_dir / f"{pdf.stem}_{engine.name}.json"
         target.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
 
         for page in result["pages"]:

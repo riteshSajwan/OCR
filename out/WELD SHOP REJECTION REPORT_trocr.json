@@ -1,0 +1,492 @@
+{
+  "file": "WELD SHOP REJECTION REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "w.",
+          "col_1": null,
+          "col_2": "1961- The rejection ri",
+          "col_3": "eport",
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REVINO.000000",
+          "_confidence": 0.726
+        },
+        {
+          "_row": 2,
+          "col_0": "1955 56",
+          "col_1": null,
+          "col_2": "1891. Schmidshop",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REVDATE-000 .",
+          "_confidence": 0.753
+        },
+        {
+          "_row": 3,
+          "col_0": "wire .",
+          "col_1": null,
+          "col_2": null,
+          "col_3": "month .",
+          "col_4": "July-",
+          "col_5": "26. 6.",
+          "col_6": "ordinate-01.04.2017",
+          "_confidence": 0.818
+        },
+        {
+          "_row": 4,
+          "col_0": "s.no .",
+          "col_1": "tremicide .",
+          "col_2": "material particulars",
+          "col_3": "sunist .",
+          "col_4": "rejection .",
+          "col_5": "vendorname .",
+          "col_6": "2 2 2 Reason ) remarks",
+          "_confidence": 0.739
+        },
+        {
+          "_row": 5,
+          "col_0": "10",
+          "col_1": "sfsooze !",
+          "col_2": "American coloured talento Rabbits .",
+          "col_3": "noe .",
+          "col_4": "erin .",
+          "col_5": "MRPLP-10",
+          "col_6": "Providence .mist .",
+          "_confidence": 0.672
+        },
+        {
+          "_row": 6,
+          "col_0": "129",
+          "col_1": "rmexomoe",
+          "col_2": "\" Pocket A \" 2.61min . \"",
+          "col_3": "nhl .",
+          "col_4": "ier .",
+          "col_5": "0 1",
+          "col_6": "pediators until matters",
+          "_confidence": 0.525
+        },
+        {
+          "_row": 7,
+          "col_0": "zei",
+          "col_1": "sfemmer .",
+          "col_2": "\" Brown quickly how later besides !",
+          "col_3": "none",
+          "col_4": "1981 82",
+          "col_5": "MPPI P.10",
+          "col_6": "Barrantite position",
+          "_confidence": 0.623
+        },
+        {
+          "_row": 8,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "\" Adelely Mountain",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "ReadEditView history",
+          "_confidence": 0.83
+        },
+        {
+          "_row": 9,
+          "col_0": "1909",
+          "col_1": "deconanza .",
+          "col_2": "\" Main loanal talent tube !",
+          "col_3": "nmc.",
+          "col_4": "again .",
+          "col_5": "spalo",
+          "col_6": "Hollo mut .",
+          "_confidence": 0.559
+        },
+        {
+          "_row": 10,
+          "col_0": "0",
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "_confidence": 0.9
+        },
+        {
+          "_row": 36,
+          "col_0": null,
+          "col_1": "0 1",
+          "col_2": "expared by , being ignored . Head )",
+          "col_3": "1 sign .",
+          "col_4": "Q.A.head )",
+          "col_5": "approved by-vp .",
+          "col_6": "operations ;",
+          "_confidence": 0.744
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_0",
+          "value": "w.",
+          "raw_text": "w.",
+          "confidence": 0.591,
+          "bbox": [
+            285,
+            416,
+            398,
+            462
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "1961- The rejection ri",
+          "raw_text": "1961- The rejection ri",
+          "confidence": 0.459,
+          "bbox": [
+            634,
+            416,
+            1192,
+            462
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_3",
+          "value": "eport",
+          "raw_text": "eport",
+          "confidence": 0.541,
+          "bbox": [
+            1192,
+            416,
+            1326,
+            462
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": "REVINO.000000",
+          "raw_text": "REVINO.000000",
+          "confidence": 0.578,
+          "bbox": [
+            1792,
+            416,
+            2229,
+            462
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_0",
+          "value": "1955 56",
+          "raw_text": "1955 56",
+          "confidence": 0.396,
+          "bbox": [
+            285,
+            462,
+            398,
+            515
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_2",
+          "value": "1891. Schmidshop",
+          "raw_text": "1891. Schmidshop",
+          "confidence": 0.331,
+          "bbox": [
+            634,
+            462,
+            1192,
+            515
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_2",
+          "value": "material particulars",
+          "raw_text": "material particulars",
+          "confidence": 0.589,
+          "bbox": [
+            634,
+            572,
+            1192,
+            686
+          ]
+        },
+        {
+          "row": 4,
+          "column": "col_6",
+          "value": "2 2 2 Reason ) remarks",
+          "raw_text": "2 2 2 Reason ) remarks",
+          "confidence": 0.481,
+          "bbox": [
+            1792,
+            572,
+            2229,
+            686
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_1",
+          "value": "sfsooze !",
+          "raw_text": "sfsooze !",
+          "confidence": 0.566,
+          "bbox": [
+            398,
+            686,
+            634,
+            763
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_2",
+          "value": "American coloured talento Rabbits .",
+          "raw_text": "American coloured talento Rabbits .",
+          "confidence": 0.541,
+          "bbox": [
+            634,
+            686,
+            1192,
+            763
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_0",
+          "value": "129",
+          "raw_text": "129",
+          "confidence": 0.581,
+          "bbox": [
+            285,
+            763,
+            398,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_1",
+          "value": "rmexomoe",
+          "raw_text": "rmexomoe",
+          "confidence": 0.376,
+          "bbox": [
+            398,
+            763,
+            634,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_4",
+          "value": "ier .",
+          "raw_text": "ier .",
+          "confidence": 0.597,
+          "bbox": [
+            1326,
+            763,
+            1539,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_5",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.375,
+          "bbox": [
+            1539,
+            763,
+            1792,
+            840
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "pediators until matters",
+          "raw_text": "pediators until matters",
+          "confidence": 0.35,
+          "bbox": [
+            1792,
+            763,
+            2229,
+            840
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_0",
+          "value": "zei",
+          "raw_text": "zei",
+          "confidence": 0.499,
+          "bbox": [
+            285,
+            840,
+            398,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_2",
+          "value": "\" Brown quickly how later besides !",
+          "raw_text": "\" Brown quickly how later besides !",
+          "confidence": 0.424,
+          "bbox": [
+            634,
+            840,
+            1192,
+            918
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_6",
+          "value": "Barrantite position",
+          "raw_text": "Barrantite position",
+          "confidence": 0.44,
+          "bbox": [
+            1792,
+            840,
+            2229,
+            918
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_2",
+          "value": "\" Adelely Mountain",
+          "raw_text": "\" Adelely Mountain",
+          "confidence": 0.269,
+          "bbox": [
+            634,
+            918,
+            1192,
+            994
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_0",
+          "value": "1909",
+          "raw_text": "1909",
+          "confidence": 0.572,
+          "bbox": [
+            285,
+            994,
+            398,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_1",
+          "value": "deconanza .",
+          "raw_text": "deconanza .",
+          "confidence": 0.467,
+          "bbox": [
+            398,
+            994,
+            634,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_2",
+          "value": "\" Main loanal talent tube !",
+          "raw_text": "\" Main loanal talent tube !",
+          "confidence": 0.459,
+          "bbox": [
+            634,
+            994,
+            1192,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_4",
+          "value": "again .",
+          "raw_text": "again .",
+          "confidence": 0.57,
+          "bbox": [
+            1326,
+            994,
+            1539,
+            1073
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_5",
+          "value": "spalo",
+          "raw_text": "spalo",
+          "confidence": 0.43,
+          "bbox": [
+            1539,
+            994,
+            1792,
+            1073
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_0",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.481,
+          "bbox": [
+            285,
+            1073,
+            398,
+            1153
+          ]
+        },
+        {
+          "row": 36,
+          "column": "col_1",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.414,
+          "bbox": [
+            398,
+            3122,
+            634,
+            3209
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 180,
+        "orientation_method": "osd",
+        "skew_deg": -0.989,
+        "grid_rows": 37,
+        "grid_cols": 7,
+        "cells_total": 259,
+        "cells_empty": 194,
+        "cells_dash": 2,
+        "cells_ocr": 56,
+        "cells_low_confidence": 26,
+        "mean_ocr_confidence": 0.622,
+        "matched_header_text": "& MEENAKSHI POLYMERS PRIVATE LIMITED HARIDWAR DOC.NO- MPPLIF/STRIO7 Vv LINE REJECTION REPORT REV NO:-00 WELDSHOP REV DATE:-00 MPPL — MONTH:- TU\\Y. 06, ORG DATE:-01.04.2017 REJECTION ean wd BAATEDIA! R",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 125.8
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

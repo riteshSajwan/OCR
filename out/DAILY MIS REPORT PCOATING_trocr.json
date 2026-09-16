@@ -1,0 +1,414 @@
+{
+  "file": "DAILY MIS REPORT PCOATING.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": null,
+          "col_1": "0 .",
+          "col_2": "0",
+          "col_3": "1",
+          "col_4": "0",
+          "col_5": "0",
+          "col_6": "1",
+          "col_7": "61 .",
+          "col_8": "0",
+          "col_9": "0",
+          "col_10": "0",
+          "col_11": "11",
+          "col_12": "11",
+          "col_13": "i",
+          "col_14": "1",
+          "col_15": "1",
+          "col_16": "11",
+          "col_17": "11",
+          "col_18": "11",
+          "col_19": "1",
+          "col_20": "11",
+          "col_21": "11",
+          "col_22": "11",
+          "col_23": "11",
+          "_confidence": 0.549
+        },
+        {
+          "_row": 2,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "1",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "5 .",
+          "col_7": null,
+          "col_8": null,
+          "col_9": "si",
+          "col_10": "2",
+          "col_11": "1",
+          "col_12": "1 1",
+          "col_13": "1 1",
+          "col_14": "1",
+          "col_15": "1",
+          "col_16": "1'",
+          "col_17": "11",
+          "col_18": "11",
+          "col_19": "1'",
+          "col_20": "11",
+          "col_21": "1'",
+          "col_22": "1'",
+          "col_23": "1'",
+          "_confidence": 0.69
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_1",
+          "value": "0 .",
+          "raw_text": "0 .",
+          "confidence": 0.465,
+          "bbox": [
+            194,
+            182,
+            239,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.45,
+          "bbox": [
+            239,
+            182,
+            260,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_3",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.323,
+          "bbox": [
+            260,
+            182,
+            280,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_4",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.446,
+          "bbox": [
+            280,
+            182,
+            301,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_5",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.413,
+          "bbox": [
+            301,
+            182,
+            321,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.367,
+          "bbox": [
+            321,
+            182,
+            358,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_7",
+          "value": "61 .",
+          "raw_text": "61 .",
+          "confidence": 0.472,
+          "bbox": [
+            358,
+            182,
+            386,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_8",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.428,
+          "bbox": [
+            386,
+            182,
+            415,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_9",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.395,
+          "bbox": [
+            415,
+            182,
+            438,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_10",
+          "value": "0",
+          "raw_text": "0",
+          "confidence": 0.433,
+          "bbox": [
+            438,
+            182,
+            465,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_14",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.597,
+          "bbox": [
+            588,
+            182,
+            628,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_15",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.507,
+          "bbox": [
+            628,
+            182,
+            669,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_16",
+          "value": "11",
+          "raw_text": "11",
+          "confidence": 0.577,
+          "bbox": [
+            669,
+            182,
+            710,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_17",
+          "value": "11",
+          "raw_text": "11",
+          "confidence": 0.586,
+          "bbox": [
+            710,
+            182,
+            752,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_18",
+          "value": "11",
+          "raw_text": "11",
+          "confidence": 0.519,
+          "bbox": [
+            752,
+            182,
+            792,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_19",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.527,
+          "bbox": [
+            792,
+            182,
+            834,
+            328
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_2",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.298,
+          "bbox": [
+            239,
+            328,
+            260,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_6",
+          "value": "5 .",
+          "raw_text": "5 .",
+          "confidence": 0.514,
+          "bbox": [
+            321,
+            328,
+            358,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_9",
+          "value": "si",
+          "raw_text": "si",
+          "confidence": 0.487,
+          "bbox": [
+            415,
+            328,
+            438,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_10",
+          "value": "2",
+          "raw_text": "2",
+          "confidence": 0.456,
+          "bbox": [
+            438,
+            328,
+            465,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_11",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.509,
+          "bbox": [
+            465,
+            328,
+            506,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_12",
+          "value": "1 1",
+          "raw_text": "1 1",
+          "confidence": 0.552,
+          "bbox": [
+            506,
+            328,
+            547,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_13",
+          "value": "1 1",
+          "raw_text": "1 1",
+          "confidence": 0.557,
+          "bbox": [
+            547,
+            328,
+            588,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_14",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.414,
+          "bbox": [
+            588,
+            328,
+            628,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_15",
+          "value": "1",
+          "raw_text": "1",
+          "confidence": 0.309,
+          "bbox": [
+            628,
+            328,
+            669,
+            406
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 90,
+        "orientation_method": "osd",
+        "skew_deg": 0.769,
+        "grid_rows": 20,
+        "grid_cols": 24,
+        "cells_total": 480,
+        "cells_empty": 416,
+        "cells_dash": 0,
+        "cells_ocr": 40,
+        "cells_low_confidence": 25,
+        "mean_ocr_confidence": 0.549,
+        "matched_header_text": "oii UE es | ee oe reas | HEA ERE TARR CTRL TTT hi m = = S = CUT",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 83.5
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

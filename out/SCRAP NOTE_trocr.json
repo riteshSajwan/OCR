@@ -1,0 +1,387 @@
+{
+  "file": "SCRAP NOTE.pdf",
+  "pages": [
+    {
+      "form_id": "scrap_note",
+      "rows": [
+        {
+          "_row": 4,
+          "s_no": 1,
+          "item_code": "who 602303",
+          "item_name": "Commission . SAN",
+          "unit": "nos .",
+          "rejection_qty": 4,
+          "vendor_name": "Initi House .",
+          "reason_remarks": "Perpetration .",
+          "_confidence": 0.63
+        },
+        {
+          "_row": 5,
+          "s_no": 22,
+          "item_code": "WLDS GO 2500",
+          "item_name": "Gotharine Chamadrei",
+          "unit": "c.",
+          "rejection_qty": 6,
+          "vendor_name": "1 .",
+          "reason_remarks": "0 1",
+          "_confidence": 0.37
+        },
+        {
+          "_row": 6,
+          "s_no": 33,
+          "item_code": "WLD 602509 .",
+          "item_name": "satire . \" Chauved AAA",
+          "unit": "2i",
+          "rejection_qty": 94,
+          "vendor_name": "to the end of",
+          "reason_remarks": "0 1",
+          "_confidence": 0.493
+        },
+        {
+          "_row": 7,
+          "s_no": 4,
+          "item_code": "WLN 602514",
+          "item_name": "\" Pink-c.ack .",
+          "unit": "mos .",
+          "rejection_qty": 52,
+          "vendor_name": "In House .",
+          "reason_remarks": "penpetrating ,",
+          "_confidence": 0.689
+        },
+        {
+          "_row": 8,
+          "s_no": 5,
+          "item_code": "WH D.059",
+          "item_name": "Reddidrix radio .",
+          "unit": "0 2 .",
+          "rejection_qty": 4,
+          "vendor_name": "1st century",
+          "reason_remarks": "0 1",
+          "_confidence": 0.504
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 4,
+          "column": "item_name",
+          "value": "Commission . SAN",
+          "raw_text": "Commission . SAN",
+          "confidence": 0.348,
+          "bbox": [
+            536,
+            546,
+            1056,
+            722
+          ]
+        },
+        {
+          "row": 4,
+          "column": "rejection_qty",
+          "value": 4,
+          "raw_text": "0 04",
+          "confidence": 0.369,
+          "bbox": [
+            1216,
+            546,
+            1471,
+            722
+          ]
+        },
+        {
+          "row": 5,
+          "column": "s_no",
+          "value": 22,
+          "raw_text": "2 2",
+          "confidence": 0.486,
+          "bbox": [
+            62,
+            722,
+            188,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "item_code",
+          "value": "WLDS GO 2500",
+          "raw_text": "WLDS GO 2500",
+          "confidence": 0.467,
+          "bbox": [
+            188,
+            722,
+            536,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "item_name",
+          "value": "Gotharine Chamadrei",
+          "raw_text": "Gotharine Chamadrei",
+          "confidence": 0.424,
+          "bbox": [
+            536,
+            722,
+            1056,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "unit",
+          "value": "c.",
+          "raw_text": "c.",
+          "confidence": 0.341,
+          "bbox": [
+            1056,
+            722,
+            1216,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "rejection_qty",
+          "value": 6,
+          "raw_text": "0 06",
+          "confidence": 0.37,
+          "bbox": [
+            1216,
+            722,
+            1471,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "vendor_name",
+          "value": "1 .",
+          "raw_text": "1 .",
+          "confidence": 0.21,
+          "bbox": [
+            1471,
+            722,
+            1882,
+            899
+          ]
+        },
+        {
+          "row": 5,
+          "column": "reason_remarks",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.294,
+          "bbox": [
+            1882,
+            722,
+            2388,
+            899
+          ]
+        },
+        {
+          "row": 6,
+          "column": "s_no",
+          "value": 33,
+          "raw_text": "3 3",
+          "confidence": 0.488,
+          "bbox": [
+            62,
+            899,
+            188,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "unit",
+          "value": "2i",
+          "raw_text": "2i",
+          "confidence": 0.339,
+          "bbox": [
+            1056,
+            899,
+            1216,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "rejection_qty",
+          "value": 94,
+          "raw_text": "0 94",
+          "confidence": 0.306,
+          "bbox": [
+            1216,
+            899,
+            1471,
+            1076
+          ]
+        },
+        {
+          "row": 6,
+          "column": "vendor_name",
+          "value": "to the end of",
+          "raw_text": "to the end of",
+          "confidence": 0.3,
+          "bbox": [
+            1471,
+            899,
+            1882,
+            1076
+          ]
+        },
+        {
+          "row": 7,
+          "column": "item_name",
+          "value": "\" Pink-c.ack .",
+          "raw_text": "\" Pink-c.ack .",
+          "confidence": 0.542,
+          "bbox": [
+            536,
+            1076,
+            1056,
+            1254
+          ]
+        },
+        {
+          "row": 7,
+          "column": "rejection_qty",
+          "value": 52,
+          "raw_text": "0 052",
+          "confidence": 0.283,
+          "bbox": [
+            1216,
+            1076,
+            1471,
+            1254
+          ]
+        },
+        {
+          "row": 8,
+          "column": "item_code",
+          "value": "WH D.059",
+          "raw_text": "WH D.059",
+          "confidence": 0.446,
+          "bbox": [
+            188,
+            1254,
+            536,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "item_name",
+          "value": "Reddidrix radio .",
+          "raw_text": "Reddidrix radio .",
+          "confidence": 0.309,
+          "bbox": [
+            536,
+            1254,
+            1056,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "rejection_qty",
+          "value": 4,
+          "raw_text": "0 04",
+          "confidence": 0.368,
+          "bbox": [
+            1216,
+            1254,
+            1471,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "vendor_name",
+          "value": "1st century",
+          "raw_text": "1st century",
+          "confidence": 0.379,
+          "bbox": [
+            1471,
+            1254,
+            1882,
+            1433
+          ]
+        },
+        {
+          "row": 8,
+          "column": "reason_remarks",
+          "value": "0 1",
+          "raw_text": "0 1",
+          "confidence": 0.377,
+          "bbox": [
+            1882,
+            1254,
+            2388,
+            1433
+          ]
+        },
+        {
+          "row": 10,
+          "column": "s_no",
+          "value": 77,
+          "raw_text": "7 7",
+          "confidence": 0.338,
+          "bbox": [
+            62,
+            1610,
+            188,
+            1788
+          ]
+        },
+        {
+          "row": 12,
+          "column": "s_no",
+          "value": 9,
+          "raw_text": "0 9",
+          "confidence": 0.357,
+          "bbox": [
+            62,
+            1967,
+            188,
+            2146
+          ]
+        },
+        {
+          "row": 13,
+          "column": "s_no",
+          "value": 0,
+          "raw_text": "0",
+          "confidence": 0.556,
+          "bbox": [
+            62,
+            2146,
+            188,
+            2324
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 180,
+        "orientation_method": "osd",
+        "skew_deg": -0.719,
+        "grid_rows": 19,
+        "grid_cols": 7,
+        "cells_total": 133,
+        "cells_empty": 54,
+        "cells_dash": 0,
+        "cells_ocr": 44,
+        "cells_low_confidence": 23,
+        "mean_ocr_confidence": 0.579,
+        "matched_header_text": "& MEENAKSHI POLYMERS (P) LTD HARIDWAR ripened Hp Scrap Note REV. DATE:-00 bd Month- (Tuj¥-9Z. ( tor 94:-\\ol9o,QR6-DATE:-01-04-2017 S.No. ITEM CODE ITEM NAME UNIT vaare VENDOR. NAME REASON / REMARKS r ",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "trocr",
+        "seconds": 195.2
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

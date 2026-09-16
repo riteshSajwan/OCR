@@ -1,0 +1,683 @@
+{
+  "file": "PRESS SHOP REJECTION REPORT.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": "war Vv",
+          "col_1": null,
+          "col_2": "LINE REJECTION RI",
+          "col_3": "-PORT",
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REV NO:-00",
+          "_confidence": 0.782
+        },
+        {
+          "_row": 2,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "PRESS SHOP",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "REV DATE:-00",
+          "_confidence": 0.821
+        },
+        {
+          "_row": 3,
+          "col_0": "ivirr.",
+          "col_1": null,
+          "col_2": null,
+          "col_3": "MONTH:-",
+          "col_4": "XuNpe",
+          "col_5": "2026",
+          "col_6": "ORG DATE:-01.04.2017",
+          "_confidence": 0.694
+        },
+        {
+          "_row": 4,
+          "col_0": "S.NO.",
+          "col_1": "ITEM CODE",
+          "col_2": "MATERIAL PARTICULARS",
+          "col_3": "UNIT",
+          "col_4": "REJECTION QTY",
+          "col_5": "VENDOR NAME",
+          "col_6": "REASON / REMARKS",
+          "_confidence": 0.945
+        },
+        {
+          "_row": 5,
+          "col_0": "A-",
+          "col_1": "S£S008 9S",
+          "col_2": "Pe Dandf& (AND)",
+          "col_3": "Neos",
+          "col_4": "| 3,",
+          "col_5": "TNHOVSE",
+          "col_6": "Pant AAN#MAR Gud An a oat.",
+          "_confidence": 0.484
+        },
+        {
+          "_row": 6,
+          "col_0": "2.",
+          "col_1": "CF Sone AX",
+          "col_2": null,
+          "col_3": "Nos",
+          "col_4": "\\ Ly",
+          "col_5": "TN Hove",
+          "col_6": "Bending Out ane Mitiehiad - Ano oO",
+          "_confidence": 0.477
+        },
+        {
+          "_row": 7,
+          "col_0": "QV:",
+          "col_1": "6 Psp US",
+          "col_2": "Pe FCRARELS",
+          "col_3": "No,",
+          "col_4": "ly",
+          "col_5": "TN RONG SE",
+          "col_6": "c/ \\ Remdemno? nie",
+          "_confidence": 0.334
+        },
+        {
+          "_row": 8,
+          "col_0": "Ur",
+          "col_1": "Sf epo 244",
+          "col_2": "Qe CACKAS",
+          "col_3": "No",
+          "col_4": "o %",
+          "col_5": "TN House",
+          "col_6": "_ oo Bemdumae Ot",
+          "_confidence": 0.447
+        },
+        {
+          "_row": 9,
+          "col_0": "S-",
+          "col_1": "Chee 342",
+          "col_2": "CQose Pie (AC\\KA)",
+          "col_3": "Noc",
+          "col_4": "© )_",
+          "col_5": "TN Nous",
+          "col_6": "7 DhaleE nut",
+          "_confidence": 0.42
+        },
+        {
+          "_row": 10,
+          "col_0": "6.",
+          "col_1": "SLS00 82%",
+          "col_2": "(iRe R (CARO)",
+          "col_3": "Nox",
+          "col_4": "\\\\",
+          "col_5": "THe sf",
+          "col_6": "Af derinnGwe it:",
+          "_confidence": 0.488
+        },
+        {
+          "_row": 11,
+          "col_0": "a2",
+          "col_1": "CF aoa 24",
+          "col_2": null,
+          "col_3": "MBA,",
+          "col_4": "(%",
+          "col_5": "TN OAL",
+          "col_6": "Mi aut nant",
+          "_confidence": 0.427
+        },
+        {
+          "_row": 12,
+          "col_0": null,
+          "col_1": null,
+          "col_2": null,
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": "xX UU ~ var",
+          "_confidence": 0.882
+        },
+        {
+          "_row": 36,
+          "col_0": null,
+          "col_1": "(PI",
+          "col_2": "'EPARED BY) NO SIGN ( PROD. Head )",
+          "col_3": "SIGN (",
+          "col_4": "Q.A. Head )",
+          "col_5": "APPROVED BY-VP",
+          "col_6": "dperations)",
+          "_confidence": 0.772
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_0",
+          "value": "war Vv",
+          "raw_text": "war Vv",
+          "confidence": 0.565,
+          "bbox": [
+            280,
+            415,
+            392,
+            462
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_3",
+          "value": "-PORT",
+          "raw_text": "-PORT",
+          "confidence": 0.17,
+          "bbox": [
+            1188,
+            415,
+            1324,
+            462
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_0",
+          "value": "ivirr.",
+          "raw_text": "ivirr.",
+          "confidence": 0.23,
+          "bbox": [
+            280,
+            516,
+            392,
+            572
+          ]
+        },
+        {
+          "row": 3,
+          "column": "col_4",
+          "value": "XuNpe",
+          "raw_text": "XuNpe",
+          "confidence": 0.05,
+          "bbox": [
+            1324,
+            516,
+            1537,
+            572
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_1",
+          "value": "S£S008 9S",
+          "raw_text": "S£S008 9S",
+          "confidence": 0.27,
+          "bbox": [
+            392,
+            686,
+            630,
+            765
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_2",
+          "value": "Pe Dandf& (AND)",
+          "raw_text": "Pe Dandf& (AND)",
+          "confidence": 0.543,
+          "bbox": [
+            630,
+            686,
+            1188,
+            765
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_5",
+          "value": "TNHOVSE",
+          "raw_text": "TNHOVSE",
+          "confidence": 0.0,
+          "bbox": [
+            1537,
+            686,
+            1788,
+            765
+          ]
+        },
+        {
+          "row": 5,
+          "column": "col_6",
+          "value": "Pant AAN#MAR Gud An a oat.",
+          "raw_text": "Pant AAN#MAR Gud An a oat.",
+          "confidence": 0.297,
+          "bbox": [
+            1788,
+            686,
+            2226,
+            765
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_0",
+          "value": "2.",
+          "raw_text": "2.",
+          "confidence": 0.49,
+          "bbox": [
+            280,
+            765,
+            392,
+            843
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_5",
+          "value": "TN Hove",
+          "raw_text": "TN Hove",
+          "confidence": 0.02,
+          "bbox": [
+            1537,
+            765,
+            1788,
+            843
+          ]
+        },
+        {
+          "row": 6,
+          "column": "col_6",
+          "value": "Bending Out ane Mitiehiad - Ano oO",
+          "raw_text": "Bending Out ane Mitiehiad - Ano oO",
+          "confidence": 0.546,
+          "bbox": [
+            1788,
+            765,
+            2226,
+            843
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_0",
+          "value": "QV:",
+          "raw_text": "QV:",
+          "confidence": 0.41,
+          "bbox": [
+            280,
+            843,
+            392,
+            920
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_1",
+          "value": "6 Psp US",
+          "raw_text": "6 Psp US",
+          "confidence": 0.397,
+          "bbox": [
+            392,
+            843,
+            630,
+            920
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_2",
+          "value": "Pe FCRARELS",
+          "raw_text": "Pe FCRARELS",
+          "confidence": 0.29,
+          "bbox": [
+            630,
+            843,
+            1188,
+            920
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_3",
+          "value": "No,",
+          "raw_text": "No,",
+          "confidence": 0.07,
+          "bbox": [
+            1188,
+            843,
+            1324,
+            920
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_5",
+          "value": "TN RONG SE",
+          "raw_text": "TN RONG SE",
+          "confidence": 0.1,
+          "bbox": [
+            1537,
+            843,
+            1788,
+            920
+          ]
+        },
+        {
+          "row": 7,
+          "column": "col_6",
+          "value": "c/ \\ Remdemno? nie",
+          "raw_text": "c/ \\ Remdemno? nie",
+          "confidence": 0.44,
+          "bbox": [
+            1788,
+            843,
+            2226,
+            920
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_1",
+          "value": "Sf epo 244",
+          "raw_text": "Sf epo 244",
+          "confidence": 0.297,
+          "bbox": [
+            392,
+            920,
+            630,
+            996
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_2",
+          "value": "Qe CACKAS",
+          "raw_text": "Qe CACKAS",
+          "confidence": 0.23,
+          "bbox": [
+            630,
+            920,
+            1188,
+            996
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_3",
+          "value": "No",
+          "raw_text": "No",
+          "confidence": 0.41,
+          "bbox": [
+            1188,
+            920,
+            1324,
+            996
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_4",
+          "value": "o %",
+          "raw_text": "o %",
+          "confidence": 0.37,
+          "bbox": [
+            1324,
+            920,
+            1537,
+            996
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_5",
+          "value": "TN House",
+          "raw_text": "TN House",
+          "confidence": 0.58,
+          "bbox": [
+            1537,
+            920,
+            1788,
+            996
+          ]
+        },
+        {
+          "row": 8,
+          "column": "col_6",
+          "value": "_ oo Bemdumae Ot",
+          "raw_text": "_ oo Bemdumae Ot",
+          "confidence": 0.34,
+          "bbox": [
+            1788,
+            920,
+            2226,
+            996
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_1",
+          "value": "Chee 342",
+          "raw_text": "Chee 342",
+          "confidence": 0.37,
+          "bbox": [
+            392,
+            996,
+            630,
+            1072
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_2",
+          "value": "CQose Pie (AC\\KA)",
+          "raw_text": "CQose Pie (AC\\KA)",
+          "confidence": 0.347,
+          "bbox": [
+            630,
+            996,
+            1188,
+            1072
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_3",
+          "value": "Noc",
+          "raw_text": "Noc",
+          "confidence": 0.58,
+          "bbox": [
+            1188,
+            996,
+            1324,
+            1072
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_4",
+          "value": "© )_",
+          "raw_text": "© )_",
+          "confidence": 0.1,
+          "bbox": [
+            1324,
+            996,
+            1537,
+            1072
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_5",
+          "value": "TN Nous",
+          "raw_text": "TN Nous",
+          "confidence": 0.395,
+          "bbox": [
+            1537,
+            996,
+            1788,
+            1072
+          ]
+        },
+        {
+          "row": 9,
+          "column": "col_6",
+          "value": "7 DhaleE nut",
+          "raw_text": "7 DhaleE nut",
+          "confidence": 0.377,
+          "bbox": [
+            1788,
+            996,
+            2226,
+            1072
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_1",
+          "value": "SLS00 82%",
+          "raw_text": "SLS00 82%",
+          "confidence": 0.345,
+          "bbox": [
+            392,
+            1072,
+            630,
+            1152
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_2",
+          "value": "(iRe R (CARO)",
+          "raw_text": "(iRe R (CARO)",
+          "confidence": 0.29,
+          "bbox": [
+            630,
+            1072,
+            1188,
+            1152
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_4",
+          "value": "\\\\",
+          "raw_text": "\\\\",
+          "confidence": 0.2,
+          "bbox": [
+            1324,
+            1072,
+            1537,
+            1152
+          ]
+        },
+        {
+          "row": 10,
+          "column": "col_6",
+          "value": "Af derinnGwe it:",
+          "raw_text": "Af derinnGwe it:",
+          "confidence": 0.383,
+          "bbox": [
+            1788,
+            1072,
+            2226,
+            1152
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_0",
+          "value": "a2",
+          "raw_text": "a2",
+          "confidence": 0.39,
+          "bbox": [
+            280,
+            1152,
+            392,
+            1232
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_3",
+          "value": "MBA,",
+          "raw_text": "MBA,",
+          "confidence": 0.49,
+          "bbox": [
+            1188,
+            1152,
+            1324,
+            1232
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_4",
+          "value": "(%",
+          "raw_text": "(%",
+          "confidence": 0.57,
+          "bbox": [
+            1324,
+            1152,
+            1537,
+            1232
+          ]
+        },
+        {
+          "row": 11,
+          "column": "col_6",
+          "value": "Mi aut nant",
+          "raw_text": "Mi aut nant",
+          "confidence": 0.307,
+          "bbox": [
+            1788,
+            1152,
+            2226,
+            1232
+          ]
+        },
+        {
+          "row": 12,
+          "column": "col_6",
+          "value": "xX UU ~ var",
+          "raw_text": "xX UU ~ var",
+          "confidence": 0.352,
+          "bbox": [
+            1788,
+            1232,
+            2226,
+            1312
+          ]
+        },
+        {
+          "row": 36,
+          "column": "col_6",
+          "value": "dperations)",
+          "raw_text": "dperations)",
+          "confidence": 0.5,
+          "bbox": [
+            1788,
+            3124,
+            2226,
+            3210
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 180,
+        "orientation_method": "osd",
+        "skew_deg": -0.949,
+        "grid_rows": 37,
+        "grid_cols": 7,
+        "cells_total": 259,
+        "cells_empty": 177,
+        "cells_dash": 0,
+        "cells_ocr": 75,
+        "cells_low_confidence": 39,
+        "mean_ocr_confidence": 0.537,
+        "matched_header_text": "| (ad & MEENAKSHI POLYMERS PRIVATE LIMITED HARIDWAR DOC.NO- MPPL/F/STRIO7 Vv LINE REJECTION REPORT REV NO:-00 PRESS SHOP REV DATE:-00 MPPL 95? MONTH:: “UNF 2024 ORG DATE:-01.04.2017 REJECTION ene jwer",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 20.3
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}

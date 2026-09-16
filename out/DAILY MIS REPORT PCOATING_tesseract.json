@@ -1,0 +1,245 @@
+{
+  "file": "DAILY MIS REPORT PCOATING.pdf",
+  "pages": [
+    {
+      "form_id": "generic",
+      "rows": [
+        {
+          "_row": 1,
+          "col_0": null,
+          "col_1": "So",
+          "col_2": "z",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": ":",
+          "col_7": "d",
+          "col_8": ": cs :",
+          "col_9": "; 3",
+          "col_10": "& g Q",
+          "col_11": ": 7",
+          "col_12": null,
+          "col_13": null,
+          "col_14": "E :",
+          "col_15": null,
+          "col_16": null,
+          "col_17": null,
+          "col_18": ": bo",
+          "col_19": null,
+          "col_20": null,
+          "col_21": null,
+          "col_22": null,
+          "col_23": null,
+          "_confidence": 0.149
+        },
+        {
+          "_row": 2,
+          "col_0": null,
+          "col_1": null,
+          "col_2": "3",
+          "col_3": null,
+          "col_4": null,
+          "col_5": null,
+          "col_6": null,
+          "col_7": null,
+          "col_8": null,
+          "col_9": null,
+          "col_10": "=<",
+          "col_11": null,
+          "col_12": null,
+          "col_13": null,
+          "col_14": null,
+          "col_15": null,
+          "col_16": null,
+          "col_17": null,
+          "col_18": null,
+          "col_19": null,
+          "col_20": null,
+          "col_21": null,
+          "col_22": null,
+          "col_23": null,
+          "_confidence": 0.318
+        }
+      ],
+      "review_queue": [
+        {
+          "row": 1,
+          "column": "col_1",
+          "value": "So",
+          "raw_text": "So",
+          "confidence": 0.46,
+          "bbox": [
+            194,
+            182,
+            239,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_2",
+          "value": "z",
+          "raw_text": "z",
+          "confidence": 0.04,
+          "bbox": [
+            239,
+            182,
+            260,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_6",
+          "value": ":",
+          "raw_text": ":",
+          "confidence": 0.23,
+          "bbox": [
+            321,
+            182,
+            358,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_7",
+          "value": "d",
+          "raw_text": "d",
+          "confidence": 0.0,
+          "bbox": [
+            358,
+            182,
+            386,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_8",
+          "value": ": cs :",
+          "raw_text": ": cs :",
+          "confidence": 0.523,
+          "bbox": [
+            386,
+            182,
+            415,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_9",
+          "value": "; 3",
+          "raw_text": "; 3",
+          "confidence": 0.525,
+          "bbox": [
+            415,
+            182,
+            438,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_10",
+          "value": "& g Q",
+          "raw_text": "& g Q",
+          "confidence": 0.24,
+          "bbox": [
+            438,
+            182,
+            465,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_11",
+          "value": ": 7",
+          "raw_text": ": 7",
+          "confidence": 0.3,
+          "bbox": [
+            465,
+            182,
+            506,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_14",
+          "value": "E :",
+          "raw_text": "E :",
+          "confidence": 0.175,
+          "bbox": [
+            588,
+            182,
+            628,
+            328
+          ]
+        },
+        {
+          "row": 1,
+          "column": "col_18",
+          "value": ": bo",
+          "raw_text": ": bo",
+          "confidence": 0.115,
+          "bbox": [
+            752,
+            182,
+            792,
+            328
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_2",
+          "value": "3",
+          "raw_text": "3",
+          "confidence": 0.54,
+          "bbox": [
+            239,
+            328,
+            260,
+            406
+          ]
+        },
+        {
+          "row": 2,
+          "column": "col_10",
+          "value": "=<",
+          "raw_text": "=<",
+          "confidence": 0.31,
+          "bbox": [
+            438,
+            328,
+            465,
+            406
+          ]
+        }
+      ],
+      "_meta": {
+        "perspective_corrected": false,
+        "orientation_applied": 90,
+        "orientation_method": "osd",
+        "skew_deg": 0.769,
+        "grid_rows": 20,
+        "grid_cols": 24,
+        "cells_total": 480,
+        "cells_empty": 416,
+        "cells_dash": 0,
+        "cells_ocr": 40,
+        "cells_low_confidence": 12,
+        "mean_ocr_confidence": 0.086,
+        "matched_header_text": "oii UE es | ee oe reas | HEA ERE TARR CTRL TTT hi m = = S = CUT",
+        "checks_passed": 0,
+        "checks_failed": 0,
+        "engine": "tesseract",
+        "seconds": 13.4
+      },
+      "page": 0,
+      "source": "scan"
+    }
+  ]
+}
